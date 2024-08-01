@@ -1,0 +1,217 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open sans', sans-serif;
+}
+
+body, html{
+  background-color: lightgray;
+  
+}
+
+header{
+  background-color: #fff;
+  font-size: 0.8em;
+  display: flex;
+  height: 52px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  box-shadow: 0px 1px 3px lightgray;
+}
+
+i#burger{
+  background-color: white;
+  color: black;
+  text-align: center;
+  vertical-align: middle;
+  padding: 10px;
+  cursor: pointer;
+  font-size: xx-large;
+  
+}
+
+.header-menu{
+  display: flex;
+  box-shadow: 0px 1px 3px lightgray;
+  height: 52px;
+}
+
+i#fechar{
+  background-color: white;
+  color: black;
+  text-align: center;
+  vertical-align: middle;
+  padding: 10px;
+  cursor: pointer;
+  font-size: xx-large;
+  
+}
+
+.titulo-menu{
+  background-color: white;
+  width: 100%;
+  height: 52px;
+  margin: auto;
+  text-align: center;
+  vertical-align: middle;
+  padding: 9px 0px;
+}
+
+menu{
+  display: none;
+  background-color: #fff;
+  width: 320px;
+  height: 100vh;
+  
+  position: fixed;
+}
+
+menu > ul{
+  list-style-type: none;
+  /*margin-top: 10px;*/
+}
+
+menu > ul > li > a{
+  display: block;
+  text-decoration: none;
+  
+  padding: 15px 0px 15px 30px;
+  color: black;
+  font-size: 1.2em;
+  border-bottom: 1px solid lightgray;
+}
+
+header > h1{
+  
+  margin: auto;
+  
+}
+
+.header-space{
+  height: 52px;
+  width: 52px;
+  background-color: white;
+  right: 0px;
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+.guia{
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+  box-shadow: 0px 1px 3px lightgray;
+  
+}
+
+i#voltar{
+  background-color: white;
+  color: black;
+  text-align: center;
+  vertical-align: middle;
+  padding: 10px;
+  cursor: pointer;
+  font-size: xx-large;
+}
+
+.title-guia{
+  align-content: center;
+}
+
+#title-guia2{
+  display: none;
+}
+
+i#avancar{
+  background-color: white;
+  color: black;
+  text-align: center;
+  vertical-align: middle;
+  padding: 10px;
+  cursor: pointer;
+  font-size: xx-large;
+}
+
+.tabela{
+  background-color: white;
+  margin: auto;
+  margin-top: 20px;
+  text-align: center;
+  font-size: medium;
+  font-weight: 600;
+  box-shadow: 0px 1px 3px lightgray;
+  
+  
+}
+
+table{
+  border-collapse: collapse;
+  
+}
+
+th{
+  border-top: 1px solid lightgray;
+}
+
+th, td {
+  background-color: white;
+  border-bottom: 1px solid lightgray;
+  padding: 5px;
+  
+}
+
+.container {
+  max-width: 640px;
+  margin: 52px auto;
+  background: #f5f5f5;
+  padding: 20px;
+  
+}
+
+.logo-campeonato{
+  display: flex;
+  max-height: 50px;
+  max-width: 50px;
+  margin: auto;
+  align-content: center;
+}
+
+.logo-escudo{
+  display: flex;
+  margin: auto;
+  max-height: 50px;
+  max-width: 50px;
+  padding: 2px;
+}
+
+.logo-transmissão{
+  display: flex;
+  margin: auto;
+  max-height: 50px;
+  max-width: 50px;
+  padding: 2px;
+}
+
+.celula-transmissao{
+  font-weight: 100;
+}
+
+#tabela-1{
+  display: block;
+}
+
+#tabela-2{
+  display: none;
+}
+
+#tabela-3{
+  display: none;
+}

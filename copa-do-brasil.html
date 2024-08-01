@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Guia de Jogos na TV</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+</head>
+
+<body>
+  <header>
+    <div><i id="burger" class="material-icons" onclick="clickMenu()">menu</i></div>
+    <menu id="itens">
+      <div class="header-menu">
+        <div><i id="fechar" class="material-icons" onclick="clickMenu()">close</i></div>
+        <h1 class="titulo-menu">MENU</h1>
+      </div>
+      
+      <ul>
+        <li><a href="index.html">PROGRAMAÇÃO DE HOJE</a></li>
+        <li><a href="brasileiro-serie-a.html">CAMPEONATO BRASILEIRO SERIE A</a></li>
+        <!--<li><a href="#">CAMPEONATO BRASILEIRO SERIE B</a></li>-->
+        <li><a href="#">COPA DO BRASIL</a></li>
+        <!--<li><a href="#">COPA LIBERTADORES</a></li>-->
+        <!--<li><a href="#">COPA SUL-AMERICANA</a></li>-->
+      </ul>
+    </menu>
+    <h1>GUIA DE JOGOS NA TV</h1>
+    <div class="header-space"></div>
+  </header>
+  <section class="container">
+    <div class="guia">
+      <div><i id="voltar" class="material-icons" onclick="clickVoltar()">chevron_left</i></div>
+      <div class="title-guia"><h1 id="title-guia1">OITAVAS DE FINAL, IDA</h1><h1 id="title-guia2">OITAVAS DE FINAL, VOLTA</h1></div>
+      <div><i id="avancar" class="material-icons" onclick="clickAvancar()">chevron_right</i></div>
+    </div>
+    <div class="tabela">
+      <table id="tabela-1">
+        <tr>
+          <th>DATA</th>
+          <th>ESTÁDIO</th>
+          <th>JOGO</th>
+          <th>TRANSMISSÃO</th>
+        </tr>
+        <tr>
+          <td>30/07 20h</td>
+          <th>Morumbis</th>
+          <td>São Paulo x Goiás</td>
+          <td><img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg" alt="Amazon Prime Video" title="Amazon Prime Video"></td>
+        </tr>
+        <tr>
+          <td>30/07 21h30</td>
+          <th>Nilton Santos</th>
+          <td>Botafogo x Bahia</td>
+          <td><img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/commons/2/26/SporTV_2021.png" alt="SporTV" title="SporTV"><img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/pt/a/a2/Logo_Premiere_FC_2018.png" alt="Premiere" title="Premiere"></td>
+        </tr>
+        <tr>
+          <td>31/07 19h</td>
+          <th>Ligga Arena</th>
+          <td>Athletico x RB Bragantino</td>
+          <td><img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/commons/2/26/SporTV_2021.png" alt="SporTV" title="SporTV"><img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/pt/a/a2/Logo_Premiere_FC_2018.png" alt="Premiere" title="Premiere"></td>
+        </tr>
+        <tr>
+          <td>31/07 19h</td>
+          <th>Rei Pelé</th>
+          <td>CRB x Atlético-MG</td>
+          <td><img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg" alt="Amazon Prime Video" title="Amazon Prime Video"></td>
+        </tr>
+        <tr>
+          <td>31/07 20h</td>
+          <th>Maracanã</th>
+          <td>Flamengo x Palmeiras</td>
+          <td><img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg" alt="Amazon Prime Video" title="Amazon Prime Video"></td>
+        </tr>
+        <tr>
+          <td>31/07 21h30</td>
+          <th>Neo Química Arena</th>
+          <td>Corinthians x Grêmio</td>
+          <td><img class="logo-transmissão" src="https://logodownload.org/wp-content/uploads/2013/12/rede-globo-logo-4.png" alt="TV Globo" title="TV Globo"><img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/commons/2/26/SporTV_2021.png" alt="SporTV" title="SporTV"><img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/pt/a/a2/Logo_Premiere_FC_2018.png" alt="Premiere" title="Premiere"><img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg" alt="Amazon Prime Video" title="Amazon Prime Video"></td>
+        </tr>
+        <tr>
+          <td>31/07 21h30</td>
+          <th>Antônio Accioly</th>
+          <td>Atlético-GO x Vasco</td>
+          <td><img class="logo-transmissão" src="https://logodownload.org/wp-content/uploads/2013/12/rede-globo-logo-4.png" alt="TV Globo" title="TV Globo"><img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/commons/2/26/SporTV_2021.png" alt="SporTV" title="SporTV"><img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/pt/a/a2/Logo_Premiere_FC_2018.png" alt="Premiere" title="Premiere"><img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg" alt="Amazon Prime Video" title="Amazon Prime Video"></td>
+        </tr>
+        <tr>
+          <td>01/08 19h</td>
+          <th>Alfredo Jaconi</th>
+          <td>Juventude x Fluminense</td>
+          <td><img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/commons/2/26/SporTV_2021.png" alt="SporTV" title="SporTV"><img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/pt/a/a2/Logo_Premiere_FC_2018.png" alt="Premiere" title="Premiere"></td>
+        </tr>
+      </table>
+      <table id="tabela-2">
+        <tr>
+          <th>DATA</th>
+          <th>ESTÁDIO</th>
+          <th>JOGO</th>
+          <th>TRANSMISSÃO</th>
+        </tr>
+        <tr>
+          <td>06/08 21h45</td>
+          <th>São Januário</th>
+          <td>Vasco x Atlético-GO</td>
+          <td><img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg" alt="Amazon Prime Video" title="Amazon Prime Video"></td>
+        </tr>
+        <tr>
+          <td>07/08 19h</td>
+          <th>Arena MRV</th>
+          <td>Atlético-MG x CRB</td>
+          <td><img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg" alt="Amazon Prime Video" title="Amazon Prime Video"></td>
+        </tr>
+        <tr>
+          <td>07/08 19h</td>
+          <th>Arena Fonte Nova</th>
+          <td>Bahia x Botafogo</td>
+          <td><img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/commons/2/26/SporTV_2021.png" alt="SporTV" title="SporTV"><img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/pt/a/a2/Logo_Premiere_FC_2018.png" alt="Premiere" title="Premiere"></td>
+        </tr>
+        <tr>
+          <td>07/08 19h</td>
+          <th>Nabi Abi Chedid</th>
+          <td>RB Bragantino x Athletico</td>
+          <td><img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/commons/2/26/SporTV_2021.png" alt="SporTV" title="SporTV"><img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/pt/a/a2/Logo_Premiere_FC_2018.png" alt="Premiere" title="Premiere"></td>
+        </tr>
+        <tr>
+          <td>07/08 20h</td>
+          <th>Allianz Parque</th>
+          <td>Palmeiras x Flamengo</td>
+          <td><img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg" alt="Amazon Prime Video" title="Amazon Prime Video"></td>
+        </tr>
+        <tr>
+          <td>07/08 21h30</td>
+          <th>Couto Pereira</th>
+          <td>Grêmio x Corinthians</td>
+          <td><img class="logo-transmissão" src="https://logodownload.org/wp-content/uploads/2013/12/rede-globo-logo-4.png" alt="TV Globo" title="TV Globo"><img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/commons/2/26/SporTV_2021.png" alt="SporTV" title="SporTV"><img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/pt/a/a2/Logo_Premiere_FC_2018.png" alt="Premiere" title="Premiere"><img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg" alt="Amazon Prime Video" title="Amazon Prime Video"></td>
+        </tr>
+        <tr>
+          <td>07/08 21h30</td>
+          <th>Maracanã</th>
+          <td>Fluminense x Juventude</td>
+          <td><img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/commons/2/26/SporTV_2021.png" alt="SporTV" title="SporTV"><img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/pt/a/a2/Logo_Premiere_FC_2018.png" alt="Premiere" title="Premiere"></td>
+        </tr>
+        <tr>
+          <td>08/08 20h</td>
+          <th>Hailé Pinheiro</th>
+          <td>Goiás x São Paulo</td>
+          <td><img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg" alt="Amazon Prime Video" title="Amazon Prime Video"></td>
+        </tr>
+        
+        
+        
+        
+        
+      </table>
+    </div>
+  </section>
+
+  <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
