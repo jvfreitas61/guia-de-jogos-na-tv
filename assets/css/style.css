@@ -1,6 +1,10 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
 
+:root {
+  --primary-color: rgb(11, 111, 223);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -14,10 +18,10 @@ body, html{
 }
 
 header{
-  background-color: #fff;
+  background-color: var(--primary-color);
   font-size: 0.8em;
   display: flex;
-  height: 52px;
+  height: 60px;
   position: fixed;
   top: 0px;
   left: 0px;
@@ -109,12 +113,14 @@ header > h1{
   background-color: white;
   justify-content: space-between;
   box-shadow: 0px 1px 3px lightgray;
-  
+  border: 1px solid var(--primary-color);
+  border-radius: 10px;
+  margin-bottom: 15px;
 }
 
 i#voltar{
-  background-color: white;
-  color: black;
+  /*background-color: white;*/
+  color: var(--primary-color);
   text-align: center;
   vertical-align: middle;
   padding: 10px;
@@ -124,6 +130,7 @@ i#voltar{
 
 .title-guia{
   align-content: center;
+  color: var(--primary-color);
 }
 
 #title-guia2{
@@ -131,8 +138,8 @@ i#voltar{
 }
 
 i#avancar{
-  background-color: white;
-  color: black;
+  /*background-color: white;*/
+  color: var(--primary-color);
   text-align: center;
   vertical-align: middle;
   padding: 10px;
@@ -141,6 +148,7 @@ i#avancar{
 }
 
 .tabela{
+  display: none;
   background-color: white;
   margin: auto;
   margin-top: 20px;
@@ -185,19 +193,21 @@ th, td {
 }
 
 .logo-escudo{
+  /*background-color: aquamarine;*/
   display: flex;
   margin: auto;
-  max-height: 50px;
-  max-width: 50px;
+  max-height: 30px;
+  max-width: 30px;
   padding: 2px;
 }
 
 .logo-transmissão{
   display: flex;
-  margin: auto;
-  max-height: 50px;
-  max-width: 50px;
+  margin: 5px;
+  max-height: 15px;
+  /*max-width: 50px;*/
   padding: 2px;
+  /*background-color: beige;*/
 }
 
 .celula-transmissao{
@@ -214,4 +224,74 @@ th, td {
 
 #tabela-3{
   display: none;
+}
+
+.jogo{
+  display: block;
+  background-color: white;
+  height: 90px;
+  margin: 5px 0px;
+  border: 1px solid var(--primary-color);
+  border-radius: 10px;
+}
+
+.jogo-heading{
+  background-color: #f0f0f0;
+  height: 20px;
+  border-radius: 10px 10px 0px 0px;
+  text-align: center;
+  
+}
+
+.jogo-heading > p{
+  width: 30px;
+  font-size: 15px;
+  font-weight: bold;
+  display: inline;
+  margin: 0px 25px;
+  background-color: red;
+}
+
+.nome-time{
+  /*background-color: blueviolet;*/
+}
+
+.confronto{
+  background-color: white;
+  display: flex;
+  height: 40px;
+  justify-content: center;
+}
+
+.time-mandante{
+  display: flex;
+  width: 50%;
+  /*background-color: darkgreen;*/
+  justify-content: right;
+}
+
+.time-visitante{
+  display: flex;
+  width: 50%;
+  /*background-color: darkgreen;*/
+  justify-content: left;
+}
+
+span{
+  align-content: center;
+  font-weight: bold;
+  color: #606060;
+}
+
+.versus{
+  /*background-color: maroon;*/
+  padding: 0px 5px;
+}
+
+.transmissao{
+  border-top: 0.5px solid rgb(240, 240, 240);
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
