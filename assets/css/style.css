@@ -249,7 +249,7 @@ th, td {
   font-weight: bold;
   display: inline;
   margin: 0px 25px;
-  background-color: red;
+  /*background-color: red;*/
 }
 
 .nome-time{
