@@ -35,268 +35,21 @@
   <section class="container">
     <div class="guia">
       <div><i id="voltar" class="material-icons" onclick="clickVoltar()">chevron_left</i></div>
-      <div class="title-guia"><h1 id="title-guia1">HOJE, 1 de agosto de 2024</h1><h1 id="title-guia2">SEXTA, 2 de agosto de 2024</h1></div>
+      <div class="title-guia"><h1 id="title-guia1">HOJE, 10 de agosto de 2024</h1><h1 id="title-guia2">AMANHÃ, 11 de agosto de 2024</h1></div>
       <div><i id="avancar" class="material-icons" onclick="clickAvancar()">chevron_right</i></div>
     </div>
-    <div class="tabela">
-      <table id="tabela-1">
-        <tr>
-          <th>HORÁRIO</th>
-          <th>CAMPEONATO</th>
-          <th>JOGO</th>
-          <th>TRANSMISSÃO</th>
-        </tr>
-        <tr>
-          <td>14h30</td>
-          <td><img class="logo-campeonato" src="https://upload.wikimedia.org/wikipedia/commons/7/78/Europa_League_2021.svg" alt="Europa League" title="Europa League"></td>
-          <td>Maccabi Petah Tivka x Braga</td>
-          <td><img class="logo-transmissão" src="data:image/png;base64,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" alt="Canal GOAT" title="Canal GOAT"></td>
-        </tr>
-        <tr>
-          <td>15h</td>
-          <td><img class="logo-campeonato" src="https://upload.wikimedia.org/wikipedia/commons/7/78/Europa_League_2021.svg" alt="Europa League" title="Europa League"></td>
-          <td>Vojvodina x Ajax</td>
-          <td class="celula-transmissao"><img class="logo-transmissão" src="data:image/png;base64,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" alt="Canal GOAT" title="Canal GOAT"></td>
-        </tr>
-        <tr>
-          <td>17h</td>
-          <td>Brasileirão sub-20</td>
-          <td>Atlético-MG sub-20 x Bahia sub-20</td>
-          <td>GaloTV | Atlético (YouTube)	</td>
-        </tr>
-        <tr>
-          <td>19h</td>
-          <td><img class="logo-campeonato" src="https://upload.wikimedia.org/wikipedia/pt/9/96/CopaDoBrasil.png" alt="Copa do Brasil" title="Copa do Brasil"></td>
-          <td>Juventude x Fluminense</td>
-          <td><img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/commons/2/26/SporTV_2021.png" alt="SporTV" title="SporTV"><img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/pt/a/a2/Logo_Premiere_FC_2018.png" alt="Premiere" title="Premiere"></td>
-        </tr>
-        <tr>
-          <td>21h</td>          
-          <td><img class="logo-campeonato" src="https://a4.espncdn.com/combiner/i?img=%2Fi%2Fleaguelogos%2Fsoccer%2F500%2F2410.png" alt="Leagues Cup" title="Leagues Cup"></td>
-          <td>Cincinnati x Querétaro</td>
-          <td><img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/en/a/ae/Apple_TV_%28logo%29.svg" alt="Apple TV" title="Apple TV"></td>
-        </tr>
-        <tr>
-          <td>22h</td>          
-          <td><img class="logo-campeonato" src="https://a4.espncdn.com/combiner/i?img=%2Fi%2Fleaguelogos%2Fsoccer%2F500%2F2410.png" alt="Leagues Cup" title="Leagues Cup"></td>
-          <td>Real Salt Lake x Atlas</td>
-          <td><img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/en/a/ae/Apple_TV_%28logo%29.svg" alt="Apple TV" title="Apple TV"></td>
-        </tr>
-        <tr>
-          <td>22h</td>          
-          <td><img class="logo-campeonato" src="https://a4.espncdn.com/combiner/i?img=%2Fi%2Fleaguelogos%2Fsoccer%2F500%2F2410.png" alt="Leagues Cup" title="Leagues Cup"></td>
-          <td>Toluca x Chicago Fire</td>
-          <td><img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/en/a/ae/Apple_TV_%28logo%29.svg" alt="Apple TV" title="Apple TV"></td>
-        </tr>
-        <tr>
-          <td>23h30</td>          
-          <td><img class="logo-campeonato" src="https://a4.espncdn.com/combiner/i?img=%2Fi%2Fleaguelogos%2Fsoccer%2F500%2F2410.png" alt="Leagues Cup" title="Leagues Cup"></td>
-          <td>Portland Timbers x Colorado Rapids</td>
-          <td><img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/en/a/ae/Apple_TV_%28logo%29.svg" alt="Apple TV" title="Apple TV"></td>
-        </tr>
-      </table>
-      <table id="tabela-2">
-        <tr>
-          <th>HORÁRIO</th>
-          <th>CAMPEONATO</th>
-          <th>JOGO</th>
-          <th>TRANSMISSÃO</th>
-        </tr>
-        <tr>
-          <td>10h</td>
-          <td><img class="logo-campeonato" src="https://upload.wikimedia.org/wikipedia/pt/thumb/d/d1/2024_Summer_Olympics_logo.svg/800px-2024_Summer_Olympics_logo.svg.png" alt="Olimpiadas 2024" title="Olimpiadas 2024"></td>
-          <td>Marrocos x EUA</td>
-          <td><img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/commons/2/26/SporTV_2021.png" alt="SporTV" title="SporTV"></td>
-        </tr>
-        <tr>
-          <td>15h30</td>
-          <td><img class="logo-campeonato" src="https://upload.wikimedia.org/wikipedia/en/thumb/7/7b/2._Bundesliga_logo.svg/1024px-2._Bundesliga_logo.svg.png" alt="Bundesliga 2" title="Bundesliga 2"></td>
-          <td>1. FC Köln x Hamburger SV</td>
-          <td><img class="logo-transmissão" src="https://asset.brandfetch.io/id6litv-rI/id_62RbWXv.jpeg" alt="OneFootball" title="OneFootball"></td>
-        </tr>
-        <tr>
-          <td>15h30</td>
-          <td><img class="logo-campeonato" src="https://upload.wikimedia.org/wikipedia/en/thumb/2/29/Admiral_Bundesliga.svg/800px-Admiral_Bundesliga.svg.png" alt="Austrian Football Bundesliga" title="Austrian Football Bundesliga"></td>
-          <td>Grazer AK x RB Salzburg</td>
-          <td><img class="logo-transmissão" src="https://asset.brandfetch.io/id6litv-rI/id_62RbWXv.jpeg" alt="OneFootball" title="OneFootball"></td>
-        </tr>
-        <tr>
-          <td>15h30</td>
-          <td><img class="logo-campeonato" src="https://upload.wikimedia.org/wikipedia/uk/0/00/Belgian_Pro_League_logo.png" alt="Belgian Pro League" title="Belgian Pro League"></td>
-          <td>Union Saint-Gilloise x Beerschot</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>18h</td>
-          <td>Campeonato Concacaf sub-20</td>
-          <td>EUA sub-20 x Panamá sub-20</td>
-          <td><img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Disney%2B_2024.svg/1920px-Disney%2B_2024.svg.png" alt="Disney+" title="Disney+"></td>
-        </tr>
-        <tr>
-          <td>19h	</td>
-          <td>Copa Paulista</td>
-          <td>Grêmio São-Carlense x União São João</td>
-          <td>Futebol Paulista (YouTube)</td>
-        </tr>
-        <tr>
-          <td>19h</td>
-          <td><img class="logo-campeonato" src="https://upload.wikimedia.org/wikipedia/pt/f/f4/Campeonato_Brasileiro_S%C3%A9rie_B_logo.png" alt="Brasileirão Série B" title="Brasileirão Série B"></td>
-          <td>Brusque x América-MG</td>
-          <td><img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/commons/2/26/SporTV_2021.png" alt="SporTV" title="SporTV"><img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/pt/a/a2/Logo_Premiere_FC_2018.png" alt="Premiere" title="Premiere"></td>
-        </tr>
-        <tr>
-          <td>21h30</td>
-          <td><img class="logo-campeonato" src="https://upload.wikimedia.org/wikipedia/pt/f/f4/Campeonato_Brasileiro_S%C3%A9rie_B_logo.png" alt="Brasileirão Série B" title="Brasileirão Série B"></td>
-          <td>Santos x Sport</td>
-          <td><img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/commons/2/26/SporTV_2021.png" alt="SporTV" title="SporTV"><img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/pt/a/a2/Logo_Premiere_FC_2018.png" alt="Premiere" title="Premiere"></td>
-        </tr>
-      </table>
-      <table id="tabela-3">
-        <tr>
-          <th>HORÁRIO</th>
-          <th>CAMPEONATO</th>
-          <th>JOGO</th>
-          <th>TRANSMISSÃO</th>
-        </tr>
-        <tr>
-          <td>8h</td>
-          <td>Amistoso Internacional</td>
-          <td>Bayern x Tottenham</td>
-          <td><img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/1920px-ESPN_wordmark.svg.png" alt="ESPN" title="ESPN"><img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Disney%2B_2024.svg/1920px-Disney%2B_2024.svg.png" alt="Disney+" title="Disney+"></td>
-        </tr>
-        <tr>
-          <td>8h30</td>
-          <td><img class="logo-campeonato" src="https://upload.wikimedia.org/wikipedia/en/e/e0/Clydesdale_Bank_Premier_League_logo.svg" alt="Scottish Premier League" title="Scottish Premier League"></td>
-          <td>Hearts x Rangers</td>
-          <td><img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Disney%2B_2024.svg/1920px-Disney%2B_2024.svg.png" alt="Disney+" title="Disney+"></td>
-        </tr>
-        <tr>
-          <td>10h30</td>
-          <td>Amistoso Internacional</td>
-          <td>Augsburg x Leicester</td>
-          <td><img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/1920px-ESPN_wordmark.svg.png" alt="ESPN" title="ESPN"><img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Disney%2B_2024.svg/1920px-Disney%2B_2024.svg.png" alt="Disney+" title="Disney+"></td>
-        </tr>
-        <tr>
-          <td>14h</td>
-          <td>Amistoso Internacional</td>
-          <td>Rennes x Real Sociedad</td>
-          <td><img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/1920px-ESPN_wordmark.svg.png" alt="ESPN" title="ESPN"><img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Disney%2B_2024.svg/1920px-Disney%2B_2024.svg.png" alt="Disney+" title="Disney+"></td>
-        </tr>
-        <tr>
-          <td>15h</td>
-          <td><img class="logo-campeonato" src="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/1.png" alt="Argentine Primera División" title="Argentine Primera División"></td>
-          <td>Vélez Sarsfield x Defensa y Justicia</td>
-          <td><img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/commons/7/78/ESPN_4_logo.svg" alt="ESPN 4" title="ESPN 4"><img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Disney%2B_2024.svg/1920px-Disney%2B_2024.svg.png" alt="Disney+" title="Disney+"></td>
-        </tr>
-        <tr>
-          <td>16h</td>
-          <td><img class="logo-campeonato" src="https://upload.wikimedia.org/wikipedia/en/0/04/Campeonato_Brasileiro_S%C3%A9rie_A.png" alt="Brasileirão Série A"></td>
-          <td>Vitória x Cuiabá</td>
-          <td><img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/pt/a/a2/Logo_Premiere_FC_2018.png" alt="Premiere" title="Premiere"></td>
-        </tr>
-        <tr>
-          <td>17h</td>
-          <td><img class="logo-campeonato" src="https://upload.wikimedia.org/wikipedia/en/4/4a/Campeonato_Brasileiro_S%C3%A9rie_B.png" alt="Brasileirão Série B" title="Brasileirão Série B"></td>
-          <td>Botafogo-SP x Coritiba</td>
-          <td><img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/commons/b/b9/TV_Brasil_logo_2023.svg" alt="TV Brasil" title="TV Brasil"><img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/pt/a/a2/Logo_Premiere_FC_2018.png" alt="Premiere" title="Premiere"><img class="logo-transmissão" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAAD8CAMAAAAFbRsXAAABMlBMVEX///8AAAD/0xicnJzQ0NBpaWmzs7P/1Rj/2Rn/1xj/0QCbm5ufn5/W1tb/2xnT09NmZmZtbW2QkJCqqqpcXFy5ubliYmKFhYUiIiKNjY14eHh/f38aGhqxsbGmpqZPT0/19fXt7e0QEBA4ODhISEjzyRfe3t46OjoqKirDw8MwMDDdtxVMTEwWFhbn5+fpwRa+nRLLqBOMdA02LQV+aAx0YAskHgOYfg6pjBBqWApNQAfRrRT//PEyKQVbSwm1lhH/1zMRDgE/NAZTRQgbFgOIcQ3/5IT//fP/+OD/8L3/883/3Vn/4XT/66P/8Lv/6p1zb1+FgG+dmIS1sqXs6d5KRC/JxbYdEQBcVz90cGFfW1C1sqcpJhn/6Z1oYkv/2klGQjTZ1cb/4nqOglJCPi/PxqyNa1xfAAAgAElEQVR4nO1dd2PbSHYHKJIghEIC7B3sRd1WlyVZsr3r9W3J7eZKrmQvl+T7f4XMe1PRSMqizrnE749dmyZA/Ob1MgNN+0pf6St9pa/0lb7SV/pKX+krfaX/KxRkq90yofxi+qUf5bMpyPoVXaWGZzvBl36qJ9OiNtQTqJGrBl/60Z5Ag2YSCE5e8Us/XxIFg8PDKaPDwwA+GtRXwQAaV7/wU6s0XXTrtf1ZIyRBneW44iXKVIRGiy/9/EDTcnu+wcOuptYXB5E7eDYIpH7w5VAcWjPlSWZeu2mV89UFoWrZ9uutfuMpSJaDL4MiqI7FI1T8bnbqECoCZbP4P/i7s7Dr+xLO0lqUVkA5/BIwrA779YpfLTrw9IkEeLLVZp992bNX8aQx0Nq//fmXbPE//vXbfxAO7hj6O9l0EBINAbMTcuuVZbJ0BUX2p878d/9udX//ry8Lo0t/bF5fOCqIlYCKTrY5wsuGFdtJcy0zfm9Bf/hj/effU4e0bTrcpzD8rBN6VKe3hjFOsQdq5U2n7VTpamu1pI/P+//2S3bL7CnTZfWdMIxscdF3kgGobCkTrhyMk56VUV5L/7eHP9q/D7aFw8Nb5rKxhy6OWupnxUU1GYrfiT+h6vwH1RUwCd22fpk+3xQEdDF78bV3WrqtKImTn6WojJMVFnhWatX9Xt4vqdj62iqGUTr/08//8SwcA/zF8SKOo0gkbiEf3bH0cqruO13wLOMscTNTp9qKRgZ5bXF8eXr3+v0aNH/882crzQBdW43b22K1Kh520dHnCqy2XlmhMMWsh+sxXfiz+AN2Au0bs+C6maOb44uz64cVWG5/+3kGGs2nJ56wWK5zIA7xEkLXi0Xi/6orjbHTI3ca1pLDNEt7kyFkGCbBY0wmJ5ent6lYHv705zdPxYFm15vKp6nXHCFJJH5lfykulircFCTZFZpAWLKb4UTxuHvHr67PU77/u1+eFKahq1IlxvEaRfbo8E89+henCgIYkSUnZsKKxVYqEMISCYTjIWgye8en18mX/GlzhQnARs5Cz9Jnz1tEXlFhctB6NhW8JBKzZlZc0hwady0r7bpv9aC20rNbGLoMNe03MSSUOUTUbi7eJWL5lw0NGS7gIvQ8B5QLjg//dIBBl4P+cqSufJVotp0kaU6V5GPDLA2anWm2l+NmOK99SgLCWGO65s3l3UMcyu0vwXocU/hm5Hl0ve6ADaIr2+1Ws1MaKvWEEShaoAsJfgdBLojRGuNaFMtqmaWiaUYaECQiZ5ObD69jUH5ZDwQC8VroeYrkoffJai5kXDukYeHYYTK1aKNdSsEBa9AHu+As6pEU7FBV9zTOFIzJ/V34uvWKAuH1MCxYRSJRnUU9IV2nDtNZ0HAmHQfchLj5ZjzZslfIVgiMmzk+U4zZetGCVecazOA4qWZnv+sQbuT0RByYOioxgJd4B+pKNsMyOTlll/1hLRBgSIPj4HZ2hSfoL0TGoeAgGLLZcrPdKtUlMFiPiuXXa6FSUordShOyDL3qd2sZAqtrC06giBUXmxSspH0gjKhaNZoZlhbFEE86GHdRw0Bpof20MRACZUKv8tbhGJAviWi22ASvWKxuVCLZ4b7fqdZH7LNOdzpd2AusUywWC4hvyB0XnnpDazMlYWTe0Kt+uw5IU2EIgUAiW+rMN8RBFKYpbcJ+uT7WK10oGVmUSLZVLVZbI4XF+wnOfQWQe3rVz+uAkO/MFYtF1GWxOT+Ij1ALD0NypVfuIogdRtawVt6xbavd53gbmvYEIIULetXv1+CA1VeDjple39+IIUSZnKIfrZi0ulWJAcluevT/9o7v0cj+UPt1cyDuFb3zuu4RLKhiQJ3E+oCgpRKcL7LROsPQy1fz5TAORCD+2MNak6N9vzlLXOZK1vjDAflKTo1604sghDpaUBZ/aUQzDq9czefzvSiQEEFOoGefYLYMg978L2ty+Tz5Tl5RkWJPrm8cSBmgJyR+QDWEkc9TLU8D0oO75rW/bg5kj95+tkayajKcpZE6rzMuBwlAAiGNUdrvURgECInaez17JxmMDRrf037YGIh5Qn/g39cA0Xn2V2xS98bkZRYk1KDG2rdvPyYhafgchqBut2cnAQG/aGtvVgfAChUu6U+ssb5gs7pMsvQKcW2+YORhHEhL+7i7+4lcFglgQMdj1C0nAoFFaATaj5uyxGWx1poOHgS5PDpp6sOdKbX1y4AlKWHy4fcBSaDq+WgnDqPbSxMtjIZr2sZ2y2XB/JoUcaZm6sSbsaUGm+3Egdgo27sfQyhLcXaAW09RdpvGzXlN+3V3o2B+woosq8spASyzyPh8/mx5bQWQ3d3vKCsZl+IwdlYZYJ8y81DTvtsEinHEfmc1QyCCl0WqIgtNSDL6U6JoNbXvdndR3XlPp9GL4lgNg7CE1odH0MH69I2xDgsPGR9XA4GqiHQiRYsL1qfdVGX/DTgmnnbNuxEcJMxaCQORsFUheqh9+933uyuxcKO1JvZtKxE8CNeMPq5mECAJ5neufUtYJV3ivBthx2qvzpHwvKxFw6fvvs+kYyl84FK9kmpJ8cmUaMLut0lAaEezKDxlVK7Ws4MiEXn0uId3fPPpm7cpjDFZ0W5N7DuWxVAEAiZlqGlv0TIlhCK+pin9My+Mo7tGOxQkSmS636Ul0Y8/JOa/Jvva6rppQLS7qQZaUBdqEkXI7P4oFUEllEZGjYh6bIgCqBfyqDObylhC3siN1prKw0BXkkMoCUJ2kUcb+1dN6+lxqivRSbP6uThIEBwpNM3qCy2p3GUe03//02rJAiAsQCnmR/4C7a+j/Z0A+Y2mZROAKDQO4YhlIWuEy4/erqd9myRZLD38t9VAwMJyNwLdgz6o8SGNHrREbVd/+Rk4CJJw3tPJaok5Cg9Q1pRLVSCiJjdAIKDtSeG6oJLKkI3MbgSJevdSkIxDpIdr5tcAiMyqin0VyA+atrMCR0d1IRua3QiSkbgZRLaJQaQIUNbkuQCkK4FkUQOpaIGSJAQpguqSITFvvqE34WriEdP66W2yF2FZ1Xw1DgSi9J2L2MfJgrKTxXiT6EkYjSSOcvQBm/UNWUJlGebr0lJ4rut/XANkoIdLQQ4Il01vC54kyQBTstPV3BolJVSJSPooANrHZHZkZCloXXEu6EQ8O2Q9TZpQg2wFaTgqgiExNbdHtU2BoDdpa29SIy0jw5KRdcU5kB21wYOGa8Y8LNiteFuAZhPlVDUnq9ykQGxKOytKKjZUOlYki5vqOgaNarmUxvEQogCQbxLUfYkBY6vK1SOGgxjVHjy+32yVKv3xrG9B8h4TPwYOEt9eekmb+/U1WZVGAyeFIVPUdoe52N03MZbMsELaSFMPfLD9Xt0bs0rqQZsmLBEoVg9yerxgpI8gSE0mXvZdVwqi5Tk+V1K0D5boSbrsxsCScHY1o06MBVlxL4hR7VwWJkrVFF2y4JMdm9rgbGqVy2W96rWFeMzL21xJnAU1tyUutKAlakw08jBLnVUTvUfEWRPyF/lut1qlaGzVBFgQ39gt8pntkUQurctQYDdaq+sYTs3k/AnOw+hLvkJggZWAa+lR12+lqIcdqXYd1Gbzxnw09nwCpVpvhYwZCQyqlQaB0hvqQYq682rpmmQECdZQnWDCgukhM1t/19SkZOnRtlMluVJt+ysmtit2taf7ChJkSb6jD2Fxyinqzls8f1uPA9M9X21Mw4ULjTsSTU7AEhxUcsrJONKnT5DGvt4IXQAsYXXmcYq6c3e4JoZHGugwGKAYLojk6tqvgORbWlGlNPdytEtDot64etjW+sk48sBRlrAx6UVKv9pk7vDPGwDBoQdl/ApnXWcQpICmS5tFcOSoKe4mdHJ2EvvphCKjWCVVTdCWwaettDEbriIbDdSAbCnzVzRuDD5hOTEQfbVGjuBAVW9Vo2Jl77RSe457RxchLHWJxAIRrVawop1sfrk7fNgEh4ZdEEVHijPkNfgQmVgd5AAISF1HFSsMQfyaOn0ZkbAzt5A5VqAMlUXAuLOMzaNk68vr8OtCX0bg3IUrKRan4Djq2o+aUi85KAGQHED2eiyEsi2fRCG1yJ6FGbEIhEoi/j8xDdO9l1DGUZbkiLVPHrIxMmxAaCMVoXow5Pwo11vYv+BCR6nmAQ7kT6vd9nK1/v5sNE9oaCHngHmibvWw5xoZM3MhviK9iUVZMtStxLKDmHjYTEU06ilELM8mkAdqDaWCOLwN7FINYRD+ebLDfZkpmKZ7dMX/LoXLgmwZJtcGiUrCvcj6iJHRAL7MnWLR6cEzVOmnSH2PrnLyHgSV8Jslrx1Gon84OTo6uuHzSjPJElqHgZgoqe/untEL1pS0FAK3tC/mS4vTBjQWhJSPPSYva8dsxhSHtdMCJJW07yuhSp6xxEly7S77/vqIURDEFpYwwdjvEThGHMfqQQKBow0PiEhyKRl/Qw53YH7WHYJrj3kS4UWesF8W/Lc6QadYojnH4fWTHiqGgzoKu46KUkuQxqHqFm3OkkWcJbwx8pdgcyAapOr9MEsYlXIcSHpFReLI8bjQtoApRL5G0e/tdxR9R3UHX7KM57u8xri5inDh4s5EHRGrcIaQxa4hlZJ1fp98sdRS3V3TQyheZbzsDIEOGjDqNCIhtKhOUHUnvoR4xY9hIMaE7QPY0IswwsZnmSHpiSmxucQhOJM08j4EwFQ9FKojFILF83KlEvyfGIChl1vqfpgl4LE0Wk2Txpf1DjeYLQ0RjMpwNSk6Wd4cG8eQJG1q7ZTga81oFci2CBRCjKPwpwoIqzeKsqSGwxAhIIVX9N7nT8OhafDoDbElTMwIdSoRKAlbDWdUrBKqWSSQadbbLaB2velbdrOi98GgSRnMMy0Zhob/M4bB4pO1A4Axgkh8JJGIQdJZKQQlZoUPUKzSq6Q8NqPmzK9UYDWaYQsMQbAV0hJR0dogXY8SxFJjiaTHZWg49hQo0VbDmKxvyfM3rpJaqDjCKdKAK29HtcRkxnfj+CSGRIy6Olmx+MOx5EoYyLKGWr5xjRQeHQyzdCVU3at9aLQqWuKyZu4mWW6caiGeZJ2ucILDUcVDvngqkDlK1ebsYFQv5UrSbvUES5Riioh8NxjsTyLUE+nii041p0ss+5VSqSZ9zAi5kas/EQYoileqhwMuzN5tqSUi8v3cLWMQPw6rSubrZO1KUiI7nFVKHhH3tmKs7PqmjSurpaQlVN19zHk5S3j95G+fiYMOp+h+aPOkk83Xk0LZYWdcD9lcu78xd2xf+TNlyUhx78bk4VmSBQRBvN4P7w2FLQjZslUv7Y/mjUan02nMRzVQlrCW23PvyWK2I9S9qexaElX45+zgDXCMwwptnabpPG7Gx89har8Ke3pDT+QPx58FhKo7jONXWRBsMsl6/QwcGtt5POvGoIRYVD/Q5xFz1dQPPgcIV/c2TlJCydFgGy2eklMl0gDN7ricTcZSdHADScUOPzaMADzdhO1wdc/nh5CXfLe7BZsliXZBR/WqE8EC5wn0QD3msWeG5kjps1jC1N3D2b23MhX527NxEKawmvSy1cs6krLl5j4asNxO/JH3ydc/CwhVdwgdcVZMxFnPsFkKHUpfOC5hAJsbs5risJIU6jahcBKL5TcC0uvyaN7T3hg8yd2CZGmHWfKfYvIsSqOUBGPHboFm9T+PJSRG7pWxpA3RPIuzNiyVrqZGDaBkYztJhsTpJT+rRePJp0yliOh+h/Z5yzMIHT/y8snTktwUIhHDgT3Qus39Ja9RHyzHXt1OgUEkiwKpbM4Sv0lyrrov7mhDqNfQtP9kP7gNHKzBToQIqtVNIN+y01GAZLGca/PUhJUxlh5LuqgkVzUWDj09N0wkGuXyNkDKwynILBLj057vxkBE1twg4O0dFleXeZfseQc/CGLHZaxwDARFcyyiq2Yp59FuaKW3IRK/P2Nye+DbfLNWmXdl/ms7OHhbehhXXpqB96w2FBLnvCLXkvX62goJDN+pncvR3G2fn0NSFu2+7TgRTZwgVJG1A9hx5Pt+veXV+rxMJ+LfkpIGL+s7m2Gx1FYKUF7TfmZ/3NrRNXyeZjmitJzPY7vDZM2widUr8Xmj0twEik2yXrUBUdW0v7L2w79sCwft964hoUEgWTmuJJTmJX8DLKF+xULTfuKZyJZUHWj9Ptd2yGbFK/bL3DosdrMk6zIwwuyyutz6rdJPoDWdnaXiMahkJZQhZ94aLJ4oNGehKbpVr85p5QFmoXTEbpXS23Mjz1qBxecqUgQcvOhwHmwTSOpEox5NRywvpQ6p8iUOBtv0jO9TKDSKAP65qWGE0k/FrIV9vc/7QV7CsVSUlqVwnEY8kd+qzEYNgeP7XVGC14PtAknYnIQ0jsRTdlsAWWXqhn2lE1SvKJg7h4hD1Be3FGZJSpyVmcWTXFnkVtonrXqs7ybylchehR1awOYjjJs5w+AJByYmzJSPE/IRIVkhlvTI9dHppw4fpQ1/TKcaRfFkE2e4qDX0UW9jJBF72qglGVPwz5IES8p03arKcQ9DXri3Pc+jzR+cHzzEwtwmDAmqfntnIXZGNzcForJkVElJDm21EyShd7WPbDfntMx7wiVe8xURHO6mxtqJaH+mMyRQNp08nF6ebzTtSImFT6Nc3UpNq6zk1lxZ+2n3Nz9+5M+As9E1LzbKfMCBrGdIWcZ618cT171he1g3IcaSYWK9gVFIsmQwC5vWCb395jtkDEY8/VwzcjH6EQAiTFbitPJg0WqA7bg7cd3MzfGRaxoZw3h4wgG8zHCtqI7QgDHe0bLYVm8C5tef2OzOOKfUvS3QfJR2TctkXO5DYgwZ5D1m/94fmyaeXUV3wxuPen9jIAN2+/RiaEiyFKvlY/kTaTdDd0boc8+TC9AuWRTIkAARTj3WbOOKfadfTczQTIFxC6XJTYm590YqEL+UDKSutGlh0hO1x5NNN9srkSiMceRt4SyBIUG51IDw7fbq8ibjGm74WAIw1xubLcmStF0h0q0jEJkmVVQgn9hwek3Ilt2vebmWAMLDXuHUg6xVp87/8STjcmkKAdlbe+5AiNiW6rRqaMj4qnN2c2WaF2Y9i1TbWbkCBp6XBJZPgRT40XP00BBnh2nF+d370yQQvIX9pBMDmUNLKVBbpRQgujJfjduDwD4tuWzRQfpZqU2tFm0kHNgB+d5CDHU/HpuuW0g758J9pMOXGxM/SDW5NNRMBRIo02SwFwXUpyNGuujyDPepH/kL8pzAOPTpPzxenBwdGym8oAy5oZugn0BcgZOKiGHjGwKyUKZLYB4aO2GVHLVbobAx0MZ1fH3BFK39w9X9pFAwV8IgRvjdkw/aFgWVJMnyUoGUlTNDYOcDZgVjKlt2KNdhzzPACOTdccZdAwFO2zRewUazJxI35QmWK2R8w4N2LXW+D44sAEva8DBwDG/VdTQt649x/9bVXppuMwxuYe/48vTq3S1OFD2VeJ0nnorU04GM1FlxMMAYvNdyOZtV3hUhZDHduz3XXIGiMLm5kMeEzj/jLHo+zdxZoyIhIMOBsi1EbNiisoUV7FlFACE8vzs7PSmkwoADAo/P+DHBw+XY6z6dH5rc2LMfZUkuHYheDM2SadRqHIAbpNvKatqCll262n8fT4jQpMAApZjcs3NBl35+GnwWBqSAZ0eR4YaIioSBWDLaonYLDXkll7NoMwQivgU9neHHVMUAVuwxgWqUnv9qFjEqH7LBURUJA6mpE1i404n5xCYFMsI7O/VhJW1PpeGae5d3VKAO2tlnowDiZmYeAhJRkZwXKjioLlFuBqwQ2UIgJOqleVcQHZZlZO5dPbBf9Z1tgEDia62qiR3BUStVciSlBr9wmG3OQke0gbpjzY+wxKJ9tkAzvv9E754EpEAr2rP2YqtvmBD5u6ImERWp2WGLGIREBg6NqVOW1OnJKHCo3u7bv0M+nKAimKJ43e2/JkPsjJFxcDjQqkB5xun6+JaIZX0RaKFJ8V2eJzY8j55OtaDHXEFCnCRYV3TX/vaJO7EOryCEcpFarRrdyl8nUNQ9Lm9YUjDO+WjP66pZiyvIBueXfiZxTeadW0XXa7l8wHsq76/PXtGDuodlos+GyHhhBxrWvSptKmOR8WvDVDwJVOZf6hVlA77UrBYhIsZSCVM1WOb7I5fkEIWCWziBZMkLtDfiJAQwXBRrDo1gI1B8P0Qg95cCCWhI6YVwKN6EKjxPqmp1ouRTXOQLmVibheMHfDuPQIK+BAX0gAZXh1yHSDx7dE9YIIHAzqQXfGecODcTS4bMaFUIOwIU+vOjkPUxJ9cY24nDDGE/Ng0SaGW1y1TIPLl4xA/E9cCQ2svhUPa3QyCMfr2UyzKBuSMpXVhhDSiOkOBRWuHwQXxt6glNWnoY6q8zHAhcuD0fmEQikfBtDFBKuUPqHu72EvIhwzzFUUVuhVHf5Q7HufYtKAkY2n2LRPkXBYUhT6hZbU6Dqt9qVtE3HbKySscH61sqDbQA3PRxcuyKSLrCzO5iTGIJJBjEQPbt4Wz+hK/EC2lIXoSCbfRyXbTDDYsAqU21gPzt9aSQBAOQGOf6WPvIcHynBTsqkiooCUz0D6Bc9MF9UYYsQkcHNNqwUnnQ2HkrV1lgEPZukp7YQZWd7ZiEzL2P5+LxTg+c9wAHBLXjDNm2hgQQFZ1f7BmGecTO1q/Ab4AP7wAOYkjvMqvKNseQYuHBSr+isbj7QRPjCA0SZcHmnQAYcqoyZNs+BLaRPVwaBQMI0k3E0idQ4NjTMir/tbGq6AFA8GCl3bdv4PlfY9ClDWieO9W+ucf6VE2xvS9gsqCGfjeRxT4SROzhNvNcQFJwC+3V7WTlmbdQ2Qzg8IXdN9qAXLlnZna/h3vjGeJd7dMfwMOTBTt9SZNFXPlltAjuTk6pwXGwUHQeKfZDZU39wL0l9vcN+YeP2uCAhDAgP7tvMQ2pjskDk7XKhxnyAiYLFu0o7hxwVzesGZH4hyMz9E97r+6u75WPoGa+Qzzi7ictIGbhFdOD3W+wjzXtBpo/RCd5pmrIlp06+LmrJEU2zDMQfLCiIRzmhA6TKMIGnahDoiI/oHk7E1K6a/zEjuueLjAAkww53bKGTCE/igoWRzIhQUqWSrwkmpuSy25kEJu5hWoJ6DeJxu7Uu+3ufv/dGwrmECC+FEPggKTrozQ/597pcN7DjYrDhVnwEuwskfDASZTx2F0iho8R7u7uFk5n/SnGouJOMJCyzZfYQjT7wUz1c8TNDZnm8pXEkZgqHiYoRQvSowDuR8TwfcxtQrQIq1+S4SI01Pa3BwPeM/ZwErVXppJswOo/KLpgGES0D8DY9PVzgQ9EEFvI+ag6UZjXWIoPDqSqQyCQ3RqOQ4LjMbp+ZubySvosOIf3TvkGHODXwaiScFIIJOw8AMUFv3oTwwFyBzCJmzw2OUPew+72LRF0yU4juYVROHmQvwd9L5LOKRwDZFgMqsJpKIKHt1hPnGJ4HMVhGI/0GuJ1uWQBpzceZ1hLfbD3EbEy8Chkvqog3B9CX4H9RMiQiv5e6DRT9cMhmD/+mbDAcAnEwsTKXxY4Q263yBCi51eRHMnMYNv1QUjyVTTCAn8BFx+GJOsKl3wkHaFhXp4x+TSM9/qBhtGDuBcEZpsPL60hEi1cR+xkYe8B02xeG3DvQ06PsWgMVxMru6cm3jRAP+VTFyQZfM0kz71Adg1UMwDjsluCMRhDmhR6SAOeW2909HOGzzxS9ICJxGtqbIh6XYt/AQvkgNe+EzjOCCb672DQ5nTdhBX/jE5tKg4SnF9Hw0A+78JiKFDSV2HVBXdhwfW2YhDgjJYxxAe3nMEk+rjlQguyuECLdSesNex3287LnYHPZ2H9wJpOg+C7fcWesHAqlpg/wKXOBnV0xYmAwEOh4XyiPDuXThA7uKSveCOQzyd3ahMpmENaEHrGwt6trs8W8DljQrKCHARwA1uwjbJpToKPVzxgwdEybvdcDDvhF0ViCCu0pfg9J9WSrZsLcWAJBGBPsbwRBQF/gHXzoKGUpkAJ+uAi+KNfKoExD05UIHDBdsLFuh6RGQMP3K2jiTx22a+91y+UECtDzQ9V0arKELZT9V6xdCC37G9EGyyrGKo5gC5uJTohy34esrtmBtILWGvQnWPXJGm78S6qILCQQ3qHmeIM2YkgAgeG+MfsUn5+S7skTQG8VmgrztCJp0nkUeY0xwGlfXc/yZw8RsBSaV/wlRC1QipJImArnKgZl2HKvr+QU+DgU+avUmkeiYcKsGpiaFC+bHkvHISBtLNSQUPGTGzYUug55cA1uz/uvD/dg5Lv2YlgyOvtMCQn4wgpC0rL6JBNpNxHgj9TNGR2ZMxEo5OQgdCV+pepP15OXBOw3vOIDeIyaws4iJ18pxheA21lOfSVwO5EwGbUDtmhrpgsXHMeKDIcwiAak0kB5l2h23nB+Wtuxxk6kMBF0iRVYqf5NhaA76IVd+mM+2r8TtIKocXm0YMeTv9pjIhAhIPcQ/P4bArn32aGPN6QN4YPq2Krznm0GCcZQlh6JWONUylYJr4v6G4vlo8g13iECSZjCwwZKwkDM1fwCihCU77n5vzu8uQklnUX7lgaQnKnh4waa+gnBSZH5wTGTUI1BnIxYXsnW6kuWpCBSBxH5Kf7iKNKR8TPz+73YGY11skBf4DR0WCpCpZxrXOvCe9vOk0ewzLPZSfB3Uqqng3JjAnJB6bSbRy8fbw8yhQKyYVqkzOkr7oQ8Ag8uzL2LieJg6KGuyfFD9j2/NrJIOQc0OTXA/bmyfcfoKOWVqUW4WpbVRCo6FwJUUqcsTTMwtE9kd9rbte24gxLqoKgeI/YjOXV8SS50siImyxftbwg+9EUM4LCNU5obZUbmMJrzHqfRyT6uJJSwWe79YfT48yqQckMtZ+snBMqvt0freiYmObk+OyB/sY77ulvtuAMB6oHMdnxQ9eXe27S0KoRggaJ0j0oVd4AAAY0SURBVJTOKoaDtFUNrHv6C8P2WAo0cDZ4LpCakpzSiPXuIm1m1Tg6PpblYNBQiMXGSUWrFILeKIQ+1aAnWzvgDDff0pJCC1VNcfPDXvo4uvmg2gVwaFVsCXxwUy6I34FodR1Cs6IuQ353G5nhSMlb6dEq6Q9FX9AiPE4BC9S9dU3E0NBPgdd7KnJFtpIZdhX7D1WeYVKLihMR5cZQeggDBMLSoxl8FIabuRCuEpZiB3+4I1NcKJM+e8JsKPMkwySrlV8hJ/AUMyURIpKFr2lXEpQYa0zz6FTJfwsixJzL5qf78MT9EwlUVn6Ept4QwyYjAd3ueEqK/QFxnas4MpHxIPME29mXilbTek9wIICwAvHzaK6/F0nCEU7iFjHgLiTNxxCG9frC9kO7Vo9U89wzJYQm3vueDi+FsIskjNtK0Qt6BlWVUS+4X5Z+pp+/uoxqigFhlRfITIjuU7tQLRzhqVAXw53gDsmDsRRGiF1oiEuc1yMTQ1Ygfh7VZJkPXDodm6CzJ/eReBWKZ31AKToLxBuf34SS43tZdHcnWGc9sIh1FhXTwj3XakuiowXi59FAmf+At6+wxKYpkwn5kMSyjAIIDg0hiu9PMypaEm3yEMHIYDdl2Q2gAifaamJXFGHsaw4583rt65jXUjm8vizTBEN0E8GB1ZwAEklZcTbCjlOpQBoZ0I0+Lv5Uaavt8UJeTbF9N1tQ9QpRdf6kZ3yHUAvO349WSkAfQIGUYkEm/hUuWJC2jlmaZEvHBEKEqr5QvCp8N3guEF10B0DjcvhZDkYso6OJ8GKsaviKKA4SbfKxBnAwY/4bsscLfKLJU0PaMan/z6Cs5Do4V+zSV6DNE2uH3/GgjjxWIhAoMPB2BJbmAvYbTWWx9tjLWMtK/Qv0/9kpblcuDAk+OuSTQ+jKxHCAp2Sr1gsVKRSWPerX3PWAlPJsD7yS0IYLJr2EIbKOd/18rw6rJeJPVHVwIe9iuR14Xv4ePxjajSMxJ48yIwHBKsmfeBBxlstKolnFeQGXnrBxOIXaAghIQzkLu4Q+xKIllBQRZDt6fNDGPIIshrcdMg+K9ipNd7gPZoEtNd6+2EZrxxJAYNGxBnccS0WwcK50jEFYPqjfMlz29kWKz/2gvpZ4ILMdOtuITBWZNWxJf7YTweVidT7Wk/mQidvWQnQHpjOEAKvA+wP01SI+SOXdUcEFqzFWvt0CVuF3IXuCTxQTsx0ngsvFchGIP/SLpIoJ/BTx6CrhHNfFkesW4PwFHAssU3z6Fe62mIZ/Q4fZTsL6c6o6fmToL3zzz6Olfk5NDTEor/eSCj946EpMiHHDwePZh7Nr3JDWx9Am4AeehXMkmIu9vZwUIPDFxe/rj65y962MxUqDbpwkj2ZBNpswUrFQdunVhBtw2rPGvh9EvkvfAgKIaRtHTUmPt7T5iAR0ovSfBANn+5L9ruPDGx/229Xo9rCEX2Evnm0gZx11xOiKdbWfTeUkryANMFrebUwiTHulFvORXaki0CB+dhWIEUk9bqItqInUxbvt7zsjQaSppEDbuj34t9DEn+HeXItc6/gFtjlZMj4BU721QWWw/68MMbxTIF6B51rA+eF2RlwUKocy+OdXrgWhebyfuHD+wARr5DxaNV9tcyqP01S0gMB7PT9glORAiv7+6uLy9B3dpszTvEnYR2+LlqJOQDjS2eqtu8pRXnJMCUrtL7FdayGmrkVcvz2qtsDU9+uLmpJ3vwxDMGGnNh/Cn+1vxg3g/IGpnOXd2mRI/Jd4pAxp/vaVEKkivRWJ3rc3txommAI+zbju5MU2fwayzgXViOenbikESG4/gIV8GeEF6b1R6n8vt1V2wDbSzbbuppB2lIzd3EL9bxWV94ez1vaG+UN0qIwNgGTtvMzPcHoZZgD5ylwNhEHbP2zhH0QzMYeAGzvm66/4X0rKdD6EJy9ms16cGrJPDeWhF9LEfwDty6qA2NXyT0kt/b3gyPUTzqT8X0ey7QPGdxsDn1+IDsU2UwgYX/bAhZclj7cOoZr1pR/mOQTlTRiihFRkW2WaL0OQv1+S5P3+pU4f+ocR7N8838uc/xO7dUZZmCt9gI3//+xEz67+J3YikqZ+62Vy9a/0/4T+B/se3YX3cJxWAAAAAElFTkSuQmCC" alt="Canal GOAT" title="Canal GOAT"></td>
-        </tr>
-        <tr>
-          <td>17h</td>
-          <td><img class="logo-campeonato" src="https://upload.wikimedia.org/wikipedia/en/c/c0/Campeonato_Brasileiro_S%C3%A9rie_C.png" alt="Brasileirão Série C" title="Brasileirão Série C"></td>
-          <td>Volta Redonda x Tombense</td>
-          <td><img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/DAZN_Logo_Master.svg/1024px-DAZN_Logo_Master.svg.png" alt="DAZN" title="DAZN"></td>
-        </tr>
-        <tr>
-          <td>17h</td>
-          <td><img class="logo-campeonato" src="https://upload.wikimedia.org/wikipedia/en/c/c0/Campeonato_Brasileiro_S%C3%A9rie_C.png" alt="Brasileirão Série C" title="Brasileirão Série C"></td>
-          <td>Botafogo-PB x Figueirense</td>
-          <td><img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/pt/e/eb/Logotipo_nosso_futebol.png" alt="Nosso Futebol" title="Nosso Futebol"></td>
-        </tr>
-        <tr>
-          <td>18h30</td>
-          <td>Amistoso</td>
-          <td>Manchester City x Chelsea</td>
-          <td><img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/commons/1/1a/SpaceLogo.svg" alt="Space" title="Space"><img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Max_logo.svg" alt="Max" title="Max"></td>
-        </tr>
-        <tr>
-          <td>19h</td>
-          <td><img class="logo-campeonato" src="https://upload.wikimedia.org/wikipedia/en/0/04/Campeonato_Brasileiro_S%C3%A9rie_A.png" alt="Brasileirão Série A"></td>
-          <td>Vasco x RB Bragantino</td>
-          <td><img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/commons/2/26/SporTV_2021.png" alt="SporTV" title="SporTV"><img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/pt/a/a2/Logo_Premiere_FC_2018.png" alt="Premiere" title="Premiere"></td>
-        </tr>
-        <tr>
-          <td>19h30</td>
-          <td><img class="logo-campeonato" src="https://upload.wikimedia.org/wikipedia/en/c/c0/Campeonato_Brasileiro_S%C3%A9rie_C.png" alt="Brasileirão Série C" title="Brasileirão Série C"></td>
-          <td>ABC x São José-RS</td>
-          <td><img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/DAZN_Logo_Master.svg/1024px-DAZN_Logo_Master.svg.png" alt="DAZN" title="DAZN"></td>
-        </tr>
-        <tr>
-          <td>20h</td>
-          <td>Amistoso</td>
-          <td>Real Madrid x Barcelona</td>
-          <td><img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/commons/d/d3/TNT_Sports_2021_logo.svg" alt="TNT" title="TNT"><img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Max_logo.svg" alt="Max" title="Max"></td>
-        </tr>
-        <tr>
-          <td>20h</td>
-          <td><img class="logo-campeonato" src="https://upload.wikimedia.org/wikipedia/en/0/04/Campeonato_Brasileiro_S%C3%A9rie_A.png" alt="Brasileirão Série A"></td>
-          <td>Atlético-GO x Botafogo</td>
-          <td><img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/pt/a/a2/Logo_Premiere_FC_2018.png" alt="Premiere" title="Premiere"></td>
-        </tr>
-        <tr>
-          <td>20h</td>
-          <td><img class="logo-campeonato" src="https://upload.wikimedia.org/wikipedia/en/0/04/Campeonato_Brasileiro_S%C3%A9rie_A.png" alt="Brasileirão Série A"></td>
-          <td>Criciúma x Atlético-MG</td>
-          <td><img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/pt/a/a2/Logo_Premiere_FC_2018.png" alt="Premiere" title="Premiere"></td>
-        </tr>
-        <tr>
-          <td>20h30</td>
-          <td><img class="logo-campeonato" src="https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/1.png" alt="Argentine Primera División" title="Argentine Primera División"></td>
-          <td>Huracán x Racing</td>
-          <td><img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/commons/7/78/ESPN_4_logo.svg" alt="ESPN 4" title="ESPN 4"><img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Disney%2B_2024.svg/1920px-Disney%2B_2024.svg.png" alt="Disney+" title="Disney+"></td>
-        </tr>
-        <tr>
-          <td>21h</td>          
-          <td><img class="logo-campeonato" src="https://a4.espncdn.com/combiner/i?img=%2Fi%2Fleaguelogos%2Fsoccer%2F500%2F2410.png" alt="Leagues Cup" title="Leagues Cup"></td>
-          <td>Tigres x Inter Miami</td>
-          <td><img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/en/a/ae/Apple_TV_%28logo%29.svg" alt="Apple TV" title="Apple TV"></td>
-        </tr>
-        <tr>
-          <td>21h30</td>
-          <td><img class="logo-campeonato" src="https://upload.wikimedia.org/wikipedia/en/0/04/Campeonato_Brasileiro_S%C3%A9rie_A.png" alt="Brasileirão Série A"></td>
-          <td>São Paulo x Flamengo</td>
-          <td><img class="logo-transmissão" src="https://logodownload.org/wp-content/uploads/2013/12/rede-globo-logo-4.png" alt="TV Globo" title="TV Globo"><img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/pt/a/a2/Logo_Premiere_FC_2018.png" alt="Premiere" title="Premiere"></td>
-        </tr>
-        <tr>
-          <td>21h30</td>
-          <td><img class="logo-campeonato" src="https://upload.wikimedia.org/wikipedia/en/4/4a/Campeonato_Brasileiro_S%C3%A9rie_B.png" alt="Brasileirão Série B" title="Brasileirão Série B"></td>
-          <td>Amazonas x Ituano</td>
-          <td><img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/commons/2/26/SporTV_2021.png" alt="SporTV" title="SporTV"><img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/pt/a/a2/Logo_Premiere_FC_2018.png" alt="Premiere" title="Premiere"></td>
-        </tr>
-        <tr>
-          <td>23h</td>          
-          <td><img class="logo-campeonato" src="https://a4.espncdn.com/combiner/i?img=%2Fi%2Fleaguelogos%2Fsoccer%2F500%2F2410.png" alt="Leagues Cup" title="Leagues Cup"></td>
-          <td>Vancouver Whitecaps x Tijuana</td>
-          <td><img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/en/a/ae/Apple_TV_%28logo%29.svg" alt="Apple TV" title="Apple TV"></td>
-        </tr>
-        <tr>
-          <td>23h</td>          
-          <td><img class="logo-campeonato" src="https://a4.espncdn.com/combiner/i?img=%2Fi%2Fleaguelogos%2Fsoccer%2F500%2F2410.png" alt="Leagues Cup" title="Leagues Cup"></td>
-          <td>Monterrey x Pumas</td>
-          <td><img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/en/a/ae/Apple_TV_%28logo%29.svg" alt="Apple TV" title="Apple TV"></td>
-        </tr>
-      </table>
-    </div>
-    <div>
+  
+    <div id="tabela-1">
       <div class="jogo">
         <div class="jogo-heading">
           <P>
-            10:30
+            10/08
           </P>
           <p class="estadio">
             AMISTOSO
           </p>
-          <p style="color: #f0f0f0;">
-            12:00
+          <p>
+            10:30
           </p>
         </div>
         <div class="confronto">
@@ -314,16 +67,17 @@
           <img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/1920px-ESPN_wordmark.svg.png" alt="ESPN" title="ESPN"><img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Disney%2B_logo.svg/320px-Disney%2B_logo.svg.png" alt="Disney+" title="Disney+">
         </div>
       </div>
+      
       <div class="jogo">
         <div class="jogo-heading">
           <P>
-            10:30
+            10/08
           </P>
           <p class="estadio">
             AMISTOSO
           </p>
-          <p style="color: #f0f0f0;">
-            12:00
+          <p>
+            10:30
           </p>
         </div>
         <div class="confronto">
@@ -344,13 +98,13 @@
       <div class="jogo">
         <div class="jogo-heading">
           <P>
-            11:00
+            10/08
           </P>
           <p class="estadio">
             Supercopa da Inglaterra
           </p>
-          <p style="color: #f0f0f0;">
-            12:00
+          <p>
+            11:00
           </p>
         </div>
         <div class="confronto">
@@ -373,12 +127,12 @@
         <div class="jogo-heading">
           
             <P>
-              12:00
+              10/08
             </P>
             <p class="estadio">
-              Final Olimpíadas Feminino
+              Olimpíadas Feminino
             </p>
-            <p style="color: #f0f0f0;">
+            <p>
               12:00
             </p>
           
@@ -398,9 +152,698 @@
         <div class="transmissao">
           <img class="logo-transmissão" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0EcRzeuolWn9xrfNwV0Ulb3z1oLyWsUexWzDSFSzzKbzAQbreUy8U8rpsiLCRpIsT2w&usqp=CAU" alt="TV Globo" title="TV Globo"><img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/commons/2/26/SporTV_2021.png" alt="SporTV" title="SporTV"><img class="logo-transmissão" src="https://logodownload.org/wp-content/uploads/2024/03/cazetv-logo-2.png" alt="Caze TV" title="Caze TV">
         </div>
-        
-        
       </div>
+        <div class="jogo">
+          <div class="jogo-heading">
+            <P>
+              10/08
+            </P>
+            <p class="estadio">
+              AMISTOSO
+            </p>
+            <p>
+              13:00
+            </p>
+          </div>
+          <div class="confronto">
+            <div class="time-mandante">
+              <span class="nome-time">Everton</span>
+              <span><img class="logo-escudo" src="https://upload.wikimedia.org/wikipedia/pt/a/ae/Everton_FC_logo_2014.png" alt="Everton"></span>
+            </div>
+            <span class="versus">X</span>
+            <div class="time-visitante">
+              <span><img class="logo-escudo" src="https://upload.wikimedia.org/wikipedia/pt/8/8c/AS_Roma_logo.png" alt="Roma"></span>
+              <span class="nome-time">Roma</span>
+            </div>
+          </div>
+          <div class="transmissao">
+            <img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/1920px-ESPN_wordmark.svg.png" alt="ESPN" title="ESPN"><img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Disney%2B_logo.svg/320px-Disney%2B_logo.svg.png" alt="Disney+" title="Disney+">
+          </div>
+        </div>
+        <div class="jogo">
+          <div class="jogo-heading">
+            <P>
+              10/08
+            </P>
+            <p class="estadio">
+              AMISTOSO
+            </p>
+            <p>
+              13:00
+            </p>
+          </div>
+          <div class="confronto">
+            <div class="time-mandante">
+              <span class="nome-time">Tottenham</span>
+              <span><img class="logo-escudo" src="data:image/png;base64,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" alt="Tottenham"></span>
+            </div>
+            <span class="versus">X</span>
+            <div class="time-visitante">
+              <span><img class="logo-escudo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg/240px-Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg.png" alt="Bayern"></span>
+              <span class="nome-time">Bayern</span>
+            </div>
+          </div>
+          <div class="transmissao">
+            <img class="logo-transmissão" src="assets/img/logos/canais/goat.png" alt="Canal GOAT" title="Canal GOAT">
+          </div>
+        </div>
+        <div class="jogo">
+          <div class="jogo-heading">
+            <P>
+              10/08
+            </P>
+            <p class="estadio">
+              Campeonato Turco
+            </p>
+            <p>
+              15:45
+            </p>
+          </div>
+          <div class="confronto">
+            <div class="time-mandante">
+              <span class="nome-time">Fenerbahçe</span>
+              <span><img class="logo-escudo" src="https://upload.wikimedia.org/wikipedia/pt/0/0a/Fenerbah%C3%A7e_SK_logo.png" alt="Fenerbahçe"></span>
+            </div>
+            <span class="versus">X</span>
+            <div class="time-visitante">
+              <span><img class="logo-escudo" src="https://upload.wikimedia.org/wikipedia/pt/d/d1/Adana_Demirspor_logo.png" alt="Adana Demispor"></span>
+              <span class="nome-time">Adana Demispor</span>
+            </div>
+          </div>
+          <div class="transmissao">
+            <img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Disney%2B_logo.svg/320px-Disney%2B_logo.svg.png" alt="Disney+" title="Disney+">
+          </div>
+        </div>
+        <div class="jogo">
+          <div class="jogo-heading">
+            <P>
+              10/08
+            </P>
+            <p class="estadio">
+              Campeonato Belga
+            </p>
+            <p>
+              15:45
+            </p>
+          </div>
+          <div class="confronto">
+            <div class="time-mandante">
+              <span class="nome-time">Anderlecht</span>
+              <span><img class="logo-escudo" src="https://upload.wikimedia.org/wikipedia/pt/4/4f/RSC_Anderlecht_logo.png" alt="Anderlecht"></span>
+            </div>
+            <span class="versus">X</span>
+            <div class="time-visitante">
+              <span><img class="logo-escudo" src="https://upload.wikimedia.org/wikipedia/pt/7/7e/Oud_heverlee_leuven.png" alt="OH Leuven"></span>
+              <span class="nome-time">OH Leuven</span>
+            </div>
+          </div>
+          <div class="transmissao">
+            <img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Disney%2B_logo.svg/320px-Disney%2B_logo.svg.png" alt="Disney+" title="Disney+">
+          </div>
+        </div>
+
+        <div class="jogo">
+          <div class="jogo-heading">
+            <P>
+              10/08
+            </P>
+            <p class="estadio">
+              Brasileirão Série A
+            </p>
+            <p>
+              16:00
+            </p>
+          </div>
+          <div class="confronto">
+            <div class="time-mandante">
+              <span class="nome-time">FORTALEZA</span>
+              <span><img class="logo-escudo" src="assets/img/logos/times/brasil/fortaleza.png" alt="Fortaleza"></span>
+            </div>
+            <span class="versus">X</span>
+            <div class="time-visitante">
+              <span><img class="logo-escudo" src="assets/img/logos/times/brasil/criciuma.png" alt="Criciúma"></span>
+              <span class="nome-time">CRICIÚMA</span>
+            </div>
+          </div>
+          <div class="transmissao">
+            <img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/pt/a/a2/Logo_Premiere_FC_2018.png" alt="Premiere" title="Premiere">
+          </div>
+        </div>
+        <div class="jogo">
+          <div class="jogo-heading">
+            <P>
+              10/08
+            </P>
+            <p class="estadio">
+              Campeonato Holandês
+            </p>
+            <p>
+              16:00
+            </p>
+          </div>
+          <div class="confronto">
+            <div class="time-mandante">
+              <span class="nome-time">PSV</span>
+              <span><img class="logo-escudo" src="https://upload.wikimedia.org/wikipedia/pt/c/ca/PSV_Eindhoven_escudo.png" alt="PSV"></span>
+            </div>
+            <span class="versus">X</span>
+            <div class="time-visitante">
+              <span><img class="logo-escudo" src="https://upload.wikimedia.org/wikipedia/pt/c/cc/RKC_Waalwijk_logo.jpg" alt="Waalwijk"></span>
+              <span class="nome-time">Waalwijk</span>
+            </div>
+          </div>
+          <div class="transmissao">
+            <img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Disney%2B_logo.svg/320px-Disney%2B_logo.svg.png" alt="Disney+" title="Disney+">
+          </div>
+        </div>
+        <div class="jogo">
+          <div class="jogo-heading">
+            <P>
+              10/08
+            </P>
+            <p class="estadio">
+              Campeonato Português
+            </p>
+            <p>
+              16:30
+            </p>
+          </div>
+          <div class="confronto">
+            <div class="time-mandante">
+              <span style="font-size: 0.8em;" class="nome-time">Porto</span>
+              <span><img class="logo-escudo" src="https://upload.wikimedia.org/wikipedia/pt/c/c5/F.C._Porto_logo.png" alt="Porto"></span>
+            </div>
+            <span class="versus">X</span>
+            <div class="time-visitante">
+              <span><img class="logo-escudo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Gil_Vicente_Futebol_Clube_2021.svg/169px-Gil_Vicente_Futebol_Clube_2021.svg.png" alt="Gil Vicente"></span>
+              <span style="font-size: 0.8em;" class="nome-time">Gil Vicente</span>
+            </div>
+          </div>
+          <div class="transmissao">
+            <img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/1920px-ESPN_wordmark.svg.png" alt="ESPN" title="ESPN"><img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Disney%2B_logo.svg/320px-Disney%2B_logo.svg.png" alt="Disney+" title="Disney+">
+          </div>
+        </div>
+        
+
+        <div class="jogo">
+          <div class="jogo-heading">
+              <P>
+                10/08
+              </P>
+              <p class="estadio">
+                Brasileirão Série A
+              </p>
+              <p>
+                19:00
+              </p>
+          </div>
+          <div class="confronto">
+            <div class="time-mandante">
+              <span class="nome-time">CUIABÁ</span>
+              <span><img class="logo-escudo" src="assets/img/logos/times/brasil/cuiaba.png" alt="Cuiabá"></span>
+            </div>
+            <span class="versus">X</span>
+            <div class="time-visitante">
+              <span><img class="logo-escudo" src="assets/img/logos/times/brasil/gremio.png" alt="Grêmio"></span>
+              <span class="nome-time">GRÊMIO</span>
+            </div>
+          </div>
+          <div class="transmissao">
+            <img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/commons/2/26/SporTV_2021.png" alt="SporTV" title="SporTV"><img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/pt/a/a2/Logo_Premiere_FC_2018.png" alt="Premiere" title="Premiere">
+          </div>
+        </div>
+        <div class="jogo">
+          <div class="jogo-heading">
+            <P>
+              10/08
+            </P>
+            <p class="estadio">
+              Campeonato Argentino
+            </p>
+            <p>
+              20:30
+            </p>
+          </div>
+          <div class="confronto">
+            <div class="time-mandante">
+              <span style="font-size: 0.8em;" class="nome-time">River Plate</span>
+              <span><img class="logo-escudo" src="assets/img/logos/times/libertadores/river-plate.png" alt="River Plate"></span>
+            </div>
+            <span class="versus">X</span>
+            <div class="time-visitante">
+              <span><img class="logo-escudo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Emblema_oficial_del_Club_Atl%C3%A9tico_Hurac%C3%A1n.svg/148px-Emblema_oficial_del_Club_Atl%C3%A9tico_Hurac%C3%A1n.svg.png" alt="Huracán"></span>
+              <span style="font-size: 0.8em;" class="nome-time">Huracán</span>
+            </div>
+          </div>
+          <div class="transmissao">
+            <img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/1920px-ESPN_wordmark.svg.png" alt="ESPN" title="ESPN"><img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Disney%2B_logo.svg/320px-Disney%2B_logo.svg.png" alt="Disney+" title="Disney+">
+          </div>
+        </div>
+        <div class="jogo">
+          <div class="jogo-heading">
+              <P>
+                10/08
+              </P>
+              <p class="estadio">
+                Brasileirão Série A
+              </p>
+              <p>
+                21:30
+              </p>
+          </div>
+          <div class="confronto">
+            <div class="time-mandante">
+              <span class="nome-time">CRUZEIRO</span>
+              <span><img class="logo-escudo" src="assets/img/logos/times/brasil/cruzeiro.png" alt="Cruzeiro"></span>
+            </div>
+            <span class="versus">X</span>
+            <div class="time-visitante">
+              <span><img class="logo-escudo" src="assets/img/logos/times/brasil/atletico-mg.png" alt="Atlético-MG"></span>
+              <span class="nome-time">ATLÉTICO-MG</span>
+            </div>
+          </div>
+          <div class="transmissao">
+            <img class="logo-transmissão" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0EcRzeuolWn9xrfNwV0Ulb3z1oLyWsUexWzDSFSzzKbzAQbreUy8U8rpsiLCRpIsT2w&usqp=CAU" alt="TV Globo" title="TV Globo"><img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/pt/a/a2/Logo_Premiere_FC_2018.png" alt="Premiere" title="Premiere">
+          </div>
+        </div>
+        <div class="jogo">
+          <div class="jogo-heading">
+              <P>
+                10/08
+              </P>
+              <p class="estadio">
+                Brasileirão Série A
+              </p>
+              <p>
+                21:30
+              </p>
+          </div>
+          <div class="confronto">
+            <div class="time-mandante">
+              <span class="nome-time">VASCO</span>
+              <span><img class="logo-escudo" src="assets/img/logos/times/brasil/vasco.png" alt="Vasco"></span>
+            </div>
+            <span class="versus">X</span>
+            <div class="time-visitante">
+              <span><img class="logo-escudo" src="assets/img/logos/times/brasil/fluminense.png" alt="Fluminense"></span>
+              <span class="nome-time">FLUMINENSE</span>
+            </div>
+          </div>
+          <div class="transmissao">
+            <img class="logo-transmissão" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0EcRzeuolWn9xrfNwV0Ulb3z1oLyWsUexWzDSFSzzKbzAQbreUy8U8rpsiLCRpIsT2w&usqp=CAU" alt="TV Globo" title="TV Globo"><img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/pt/a/a2/Logo_Premiere_FC_2018.png" alt="Premiere" title="Premiere">
+          </div>
+        </div>
+        <div class="jogo">
+          <div class="jogo-heading">
+              <P>
+                10/08
+              </P>
+              <p class="estadio">
+                Brasileirão Série A
+              </p>
+              <p>
+                21:30
+              </p>
+          </div>
+          <div class="confronto">
+            <div class="time-mandante">
+              <span class="nome-time">CORINTHIANS</span>
+              <span><img class="logo-escudo" src="assets/img/logos/times/brasil/corinthians.png" alt="Corinthians"></span>
+            </div>
+            <span class="versus">X</span>
+            <div class="time-visitante">
+              <span><img class="logo-escudo" src="assets/img/logos/times/brasil/rb-bragantino.png" alt="RB Bragantino"></span>
+              <span class="nome-time">RB BRAGANTINO</span>
+            </div>
+          </div>
+          <div class="transmissao">
+            <img class="logo-transmissão" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0EcRzeuolWn9xrfNwV0Ulb3z1oLyWsUexWzDSFSzzKbzAQbreUy8U8rpsiLCRpIsT2w&usqp=CAU" alt="TV Globo" title="TV Globo"><img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/pt/a/a2/Logo_Premiere_FC_2018.png" alt="Premiere" title="Premiere">
+          </div>
+        </div>
+    </div>
+    <div id="tabela-2">
+      <div class="jogo">
+        <div class="jogo-heading">
+          <P>
+            11/08
+          </P>
+          <p class="estadio">
+            AMISTOSO
+          </p>
+          <p>
+            08:30
+          </p>
+        </div>
+        <div class="confronto">
+          <div class="time-mandante">
+            <span class="nome-time">Liverpool</span>
+            <span><img class="logo-escudo" src="https://upload.wikimedia.org/wikipedia/pt/0/0c/Liverpool_FC.svg" alt="Liverpool"></span>
+          </div>
+          <span class="versus">X</span>
+          <div class="time-visitante">
+            <span><img class="logo-escudo" src="https://upload.wikimedia.org/wikipedia/pt/c/cd/Sevilla_cf.png" alt="Sevilla"></span>
+            <span class="nome-time">Sevilla</span>
+          </div>
+        </div>
+        <div class="transmissao">
+          <img style="background-color: #dc0714;" class="logo-transmissão" src="https://video.liverpoolfc.com/LFCTVGO.svg" alt="LCFTV" title="LCFTV">
+        </div>
+      </div>
+      <div class="jogo">
+        <div class="jogo-heading">
+          <P>
+            11/08
+          </P>
+          <p class="estadio">
+            AMISTOSO
+          </p>
+          <p>
+            10:00
+          </p>
+        </div>
+        <div class="confronto">
+          <div class="time-mandante">
+            <span class="nome-time">Atlético Madrid</span>
+            <span><img class="logo-escudo" src="https://upload.wikimedia.org/wikipedia/pt/c/c1/Atletico_Madrid_logo.svg" alt="Atlético de Madrid"></span>
+          </div>
+          <span class="versus">X</span>
+          <div class="time-visitante">
+            <span><img class="logo-escudo" src="https://upload.wikimedia.org/wikipedia/commons/a/a8/Juventus_FC_-_pictogram_black_%28Italy%2C_2017%29.svg" alt="Juventus"></span>
+            <span class="nome-time">Juventus</span>
+          </div>
+        </div>
+        <div class="transmissao">
+          <img class="logo-transmissão" src="assets/img/logos/canais/goat.png" alt="Canal GOAT" title="Canal GOAT">
+        </div>
+      </div>
+      <div class="jogo">
+        <div class="jogo-heading">
+          <P>
+            11/08
+          </P>
+          <p class="estadio">
+            Emirates Cup
+          </p>
+          <p>
+            10:00
+          </p>
+        </div>
+        <div class="confronto">
+          <div class="time-mandante">
+            <span class="nome-time">Arsenal</span>
+            <span><img class="logo-escudo" src="https://upload.wikimedia.org/wikipedia/pt/5/53/Arsenal_FC.svg" alt="Arsenal"></span>
+          </div>
+          <span class="versus">X</span>
+          <div class="time-visitante">
+            <span><img class="logo-escudo" src="https://upload.wikimedia.org/wikipedia/pt/6/6d/Olympique_lyonnais.png" alt="Lyon"></span>
+            <span class="nome-time">Lyon</span>
+          </div>
+        </div>
+        <div class="transmissao">
+          <img class="logo-transmissão" src="https://www.arsenal.com/sites/default/files/styles/small/public/logos/MicrosoftTeams-image%20%2823%29.png?auto=webp&itok=P4E75-Nd" alt="arsenal.com" title="arsenal.com">
+        </div>
+      </div>
+      <div class="jogo">
+        <div class="jogo-heading">
+          <P>
+            11/08
+          </P>
+          <p class="estadio">
+            Amistoso
+          </p>
+          <p>
+            11:00
+          </p>
+        </div>
+        <div class="confronto">
+          <div class="time-mandante">
+            <span style="font-size: 0.8em;" class="nome-time">Chelsea</span>
+            <span><img class="logo-escudo" src="https://upload.wikimedia.org/wikipedia/pt/c/cc/Chelsea_FC.svg" alt="Chelsea"></span>
+          </div>
+          <span class="versus">X</span>
+          <div class="time-visitante">
+            <span><img class="logo-escudo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/FC_Internazionale_Milano_2021.svg/240px-FC_Internazionale_Milano_2021.svg.png" alt="Inter de Milão"></span>
+            <span style="font-size: 0.8em;" class="nome-time">Inter de Milão</span>
+          </div>
+        </div>
+        <div class="transmissao">
+          <img class="logo-transmissão" src="data:image/png;base64,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" alt="ChelseaTV" title="ChelseaTV">
+        </div>
+      </div>
+
+      <div class="jogo">
+        <div class="jogo-heading">
+            <P>
+              11/08
+            </P>
+            <p class="estadio">
+              Brasileirão Série A
+            </p>
+            <p>
+              11:00
+            </p>
+        </div>
+        <div class="confronto">
+          <div class="time-mandante">
+            <span class="nome-time">JUVENTUDE</span>
+            <span><img class="logo-escudo" src="assets/img/logos/times/brasil/juventude.png" alt="Juventude"></span>
+          </div>
+          <span class="versus">X</span>
+          <div class="time-visitante">
+            <span><img class="logo-escudo" src="assets/img/logos/times/brasil/botafogo.png" alt="Botafogo"></span>
+            <span class="nome-time">BOTAFOGO</span>
+          </div>
+        </div>
+        <div class="transmissao">
+          <img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/pt/a/a2/Logo_Premiere_FC_2018.png" alt="Premiere" title="Premiere">
+        </div>
+      </div>
+      <div class="jogo">
+        <div class="jogo-heading">
+          <P>
+            11/08
+          </P>
+          <p class="estadio">
+            Campeonato Holandês
+          </p>
+          <p>
+            11:45
+          </p>
+        </div>
+        <div class="confronto">
+          <div class="time-mandante">
+            <span class="nome-time">Ajax</span>
+            <span><img class="logo-escudo" src="https://upload.wikimedia.org/wikipedia/pt/b/b8/AFC_Ajax_Amsterdam.svg" alt="Ajax"></span>
+          </div>
+          <span class="versus">X</span>
+          <div class="time-visitante">
+            <span><img class="logo-escudo" src="https://upload.wikimedia.org/wikipedia/pt/e/e7/SC_Heerenveen.png" alt="Heerenveen"></span>
+            <span class="nome-time">Heerenveen</span>
+          </div>
+        </div>
+        <div class="transmissao">
+          <img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/1920px-ESPN_wordmark.svg.png" alt="ESPN" title="ESPN"><img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Disney%2B_logo.svg/320px-Disney%2B_logo.svg.png" alt="Disney+" title="Disney+">
+        </div>
+      </div>
+
+  
+        
+        <div class="jogo">
+          <div class="jogo-heading">
+            <P>
+              11/08
+            </P>
+            <p class="estadio">
+              Campeonato Português
+            </p>
+            <p>
+              14:00
+            </p>
+          </div>
+          <div class="confronto">
+            <div class="time-mandante">
+              <span style="font-size: 0.8em;" class="nome-time">Famalicão</span>
+              <span><img class="logo-escudo" src="https://upload.wikimedia.org/wikipedia/pt/6/61/Escudo_Famalic%C3%A3o.png" alt="Famalicão"></span>
+            </div>
+            <span class="versus">X</span>
+            <div class="time-visitante">
+              <span><img class="logo-escudo" src="https://upload.wikimedia.org/wikipedia/pt/d/de/Sport_Lisboa_e_Benfica.svg" alt="Benfica"></span>
+              <span style="font-size: 0.8em;" class="nome-time">Benfica</span>
+            </div>
+          </div>
+          <div class="transmissao">
+            <img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/1920px-ESPN_wordmark.svg.png" alt="ESPN" title="ESPN"><img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Disney%2B_logo.svg/320px-Disney%2B_logo.svg.png" alt="Disney+" title="Disney+">
+          </div>
+        </div>
+        
+
+        
+        <div class="jogo">
+          <div class="jogo-heading">
+            <P>
+              11/08
+            </P>
+            <p class="estadio">
+              Campeonato Turco
+            </p>
+            <p>
+              15:45
+            </p>
+          </div>
+          <div class="confronto">
+            <div class="time-mandante">
+              <span style="font-size: 0.8em;" class="nome-time">Samsunspor</span>
+              <span><img class="logo-escudo" src="https://upload.wikimedia.org/wikipedia/pt/d/dc/Samsunspor_logo_2.png" alt="Samsunspor"></span>
+            </div>
+            <span class="versus">X</span>
+            <div class="time-visitante">
+              <span><img class="logo-escudo" src="https://ssl.gstatic.com/onebox/media/sports/logos/WLe9Xg7ka5F3k1Q2Wq3eOA_64x64.png" alt="Besiktas"></span>
+              <span style="font-size: 0.8em;" class="nome-time">Besiktas</span>
+            </div>
+          </div>
+          <div class="transmissao">
+            <img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Disney%2B_logo.svg/320px-Disney%2B_logo.svg.png" alt="Disney+" title="Disney+">
+          </div>
+        </div>
+        
+        <div class="jogo">
+          <div class="jogo-heading">
+              <P>
+                11/08
+              </P>
+              <p class="estadio">
+                Brasileirão Série A
+              </p>
+              <p>
+                16:00
+              </p>
+          </div>
+          <div class="confronto">
+            <div class="time-mandante">
+              <span class="nome-time">BAHIA</span>
+              <span><img class="logo-escudo" src="assets/img/logos/times/brasil/bahia.png" alt="Bahia"></span>
+            </div>
+            <span class="versus">X</span>
+            <div class="time-visitante">
+              <span><img class="logo-escudo" src="assets/img/logos/times/brasil/vitoria.png" alt="Vitória"></span>
+              <span class="nome-time">VITÓRIA</span>
+            </div>
+          </div>
+          <div class="transmissao">
+            <img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/pt/a/a2/Logo_Premiere_FC_2018.png" alt="Premiere" title="Premiere">
+          </div>
+        </div>
+        <div class="jogo">
+          <div class="jogo-heading">
+              <P>
+                11/08
+              </P>
+              <p class="estadio">
+                Brasileirão Série A
+              </p>
+              <p>
+                16:00
+              </p>
+          </div>
+          <div class="confronto">
+            <div class="time-mandante">
+              <span class="nome-time">FLAMENGO</span>
+              <span><img class="logo-escudo" src="assets/img/logos/times/brasil/flamengo.png" alt="Flamengo"></span>
+            </div>
+            <span class="versus">X</span>
+            <div class="time-visitante">
+              <span><img class="logo-escudo" src="assets/img/logos/times/brasil/palmeiras.png" alt="Palmeiras"></span>
+              <span class="nome-time">PALMEIRAS</span>
+            </div>
+          </div>
+          <div class="transmissao">
+            <img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/pt/a/a2/Logo_Premiere_FC_2018.png" alt="Premiere" title="Premiere">
+          </div>
+        </div>
+        <div class="jogo">
+          <div class="jogo-heading">
+              <P>
+                11/08
+              </P>
+              <p class="estadio">
+                Brasileirão Série A
+              </p>
+              <p>
+                16:00
+              </p>
+          </div>
+          <div class="confronto">
+            <div class="time-mandante">
+              <span class="nome-time">SÃO PAULO</span>
+              <span><img class="logo-escudo" src="assets/img/logos/times/brasil/sao-paulo.png" alt="São Paulo"></span>
+            </div>
+            <span class="versus">X</span>
+            <div class="time-visitante">
+              <span><img class="logo-escudo" src="assets/img/logos/times/brasil/atletico-go.png" alt="Atlético-GO"></span>
+              <span class="nome-time">ATLÉTICO-GO</span>
+            </div>
+          </div>
+          <div class="transmissao">
+            <img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/pt/a/a2/Logo_Premiere_FC_2018.png" alt="Premiere" title="Premiere">
+          </div>
+        </div>
+
+        <div class="jogo">
+          <div class="jogo-heading">
+              <P>
+                11/08
+              </P>
+              <p class="estadio">
+                Brasileirão Série B
+              </p>
+              <p>
+                16:00
+              </p>
+          </div>
+          <div class="confronto">
+            <div class="time-mandante">
+              <span class="nome-time">Coritiba</span>
+              <span><img class="logo-escudo" src="https://logodownload.org/wp-content/uploads/2017/02/coritiba-logo-escudo-6.png" alt="Coritiba"></span>
+            </div>
+            <span class="versus">X</span>
+            <div class="time-visitante">
+              <span><img class="logo-escudo" src="https://ssl.gstatic.com/onebox/media/sports/logos/BJIn62x7CfqvGCCDHtaCqg_64x64.png" alt="Ponte Preta"></span>
+              <span class="nome-time">Ponte Preta</span>
+            </div>
+          </div>
+          <div class="transmissao">
+            <img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/commons/2/2b/Rede_Bandeirantes_logo_2018.svg" alt="Band" title="Band"><img class="logo-transmissão" src="assets/img/logos/canais/goat.png" alt="Canal GOAT" title="Canal GOAT">
+            <img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/pt/a/a2/Logo_Premiere_FC_2018.png" alt="Premiere" title="Premiere">
+          </div>
+        </div>
+        <div class="jogo">
+          <div class="jogo-heading">
+              <P>
+                11/08
+              </P>
+              <p class="estadio">
+                BEIRA-RIO
+              </p>
+              <p>
+                19:00
+              </p>
+          </div>
+          <div class="confronto">
+            <div class="time-mandante">
+              <span class="nome-time">INTERNACIONAL</span>
+              <span><img class="logo-escudo" src="assets/img/logos/times/brasil/internacional.png" alt="Internacional"></span>
+            </div>
+            <span class="versus">X</span>
+            <div class="time-visitante">
+              <span><img class="logo-escudo" src="assets/img/logos/times/brasil/athletico-pr.png" alt="Athletico-PR"></span>
+              <span class="nome-time">ATHLETICO-PR</span>
+            </div>
+          </div>
+          <div class="transmissao">
+            <img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/commons/2/26/SporTV_2021.png" alt="SporTV" title="SporTV"><img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/pt/a/a2/Logo_Premiere_FC_2018.png" alt="Premiere" title="Premiere">
+          </div>
+        </div>
+
     </div>
   </section>
 
