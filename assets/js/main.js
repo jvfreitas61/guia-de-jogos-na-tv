@@ -30,8 +30,13 @@ function clickAvancar(){
     }
 }
 
+/*var jogo = document.querySelectorAll('.jogo');
+jogo.addEventListener('click', adicionaClasse());
 
+function adicionaClasse(){
+    jogo.classList.add('selecionado');
+}
 
 function abrirJogo(){
 
-}
+}*/
