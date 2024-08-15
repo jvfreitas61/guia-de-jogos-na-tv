@@ -29,3 +29,9 @@ function clickAvancar(){
         tabela2.style.display = 'block'
     }
 }
+
+
+
+function abrirJogo(){
+
+}
