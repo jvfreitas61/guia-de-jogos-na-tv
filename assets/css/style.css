@@ -84,6 +84,10 @@ menu > ul{
   /*margin-top: 10px;*/
 }
 
+li{
+  list-style: none;
+}
+
 menu > ul > li > a{
   display: block;
   text-decoration: none;
@@ -122,7 +126,7 @@ header > h1{
   font-size: 0.8em;
 }
 
-i#voltar{
+i#btn-voltar{
   /*background-color: white;*/
   color: var(--primary-color);
   text-align: center;
@@ -132,16 +136,20 @@ i#voltar{
   font-size: xx-large;
 }
 
-.title-guia{
+.lista-guia{
   align-content: center;
   color: var(--primary-color);
 }
 
-#title-guia2{
+.titulo-guia{
   display: none;
 }
 
-i#avancar{
+.titulo-selecionado{
+  display: block;
+}
+
+i#btn-avancar{
   /*background-color: white;*/
   color: var(--primary-color);
   text-align: center;
@@ -151,7 +159,7 @@ i#avancar{
   font-size: xx-large;
 }
 
-.tabela{
+/*.tabela{
   display: block;
   background-color: white;
   margin: auto;
@@ -160,8 +168,16 @@ i#avancar{
   font-size: medium;
   font-weight: 600;
   box-shadow: 0px 1px 3px lightgray;
-  
-  
+}*/
+
+
+
+.tabela{
+  display: none;
+}
+
+.selecionado{
+  display: block;
 }
 
 table{
@@ -218,6 +234,7 @@ th, td {
   font-weight: 100;
 }
 
+/*
 #tabela-1{
   display: block;
 }
@@ -228,7 +245,7 @@ th, td {
 
 #tabela-3{
   display: none;
-}
+}*/
 
 .jogo{
   display: block;
