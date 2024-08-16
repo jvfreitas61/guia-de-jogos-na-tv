@@ -30,6 +30,20 @@ function clickAvancar(){
     }
 }
 
+const btnAvancar = document.getElementById("btn-avancar");
+let listaAtual = 0;
+const listas = document.querySelectorAll(".cartao");
+
+btnAvancar.addEventListener("click", function(){
+    if (cartaoAtual === cartoes.length - 1) return;
+    const cartaoSelecionado = document.querySelector("selecionado");
+    cartaoSelecionado.classList.remove("selecionado");
+
+    
+    cartaoAtual++;
+    cartoes[cartaoAtual].classList.add("selecionado");
+});
+
 /*var jogo = document.querySelectorAll('.jogo');
 jogo.addEventListener('click', adicionaClasse());
 
