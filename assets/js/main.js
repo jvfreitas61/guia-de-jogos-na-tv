@@ -76,3 +76,36 @@ function adicionaClasse(){
 function abrirJogo(){
 
 }*/
+
+const listaJogos = document.querySelectorAll('.jogo');
+//console.log(jogo)
+
+listaJogos.forEach((jogo) => {
+    jogo.addEventListener('click', callBack)
+})
+
+
+
+
+function callBack(event){
+
+    console.log(event.currentTarget);
+}
+
+const linksExternos = document.querySelectorAll('a[href^="https"]');
+linksExternos.forEach((link) => {
+    link.addEventListener('click', handleLink);
+})
+
+function handleLink(event){
+    event.preventDefault();
+    
+}
+
+/*
+const jogos = document.querySelector('.listaJogos')
+jogos.addEventListener('click', callbackLista);
+
+function callbackLista(event){
+    console.log(event.target);
+}*/
