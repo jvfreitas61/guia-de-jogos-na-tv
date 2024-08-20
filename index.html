@@ -48,13 +48,13 @@
         <ul class="listaJogos">
           <li><div class="jogo">
             <div class="jogo-heading">
-              <P>
+              <P class="data-jogo">
                 10/08
               </P>
               <p class="estadio">
                 AMISTOSO
               </p>
-              <p>
+              <p class="horario-jogo">
                 10:30
               </p>
             </div>
@@ -69,21 +69,24 @@
                 <span class="nome-time">Athletic Bilbao</span>
               </div>
             </div>
-            <div class="transmissao">
-              <a href="https://www.espn.com.br/"><img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/1920px-ESPN_wordmark.svg.png" alt="ESPN" title="ESPN"></a>
-              <img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Disney%2B_logo.svg/320px-Disney%2B_logo.svg.png" alt="Disney+" title="Disney+">
-            </div>
+              <ul class="transmissao">
+                <li><a href="https://www.espn.com.br/"><img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/1920px-ESPN_wordmark.svg.png" alt="ESPN" title="ESPN"></a></li>
+                <li><img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Disney%2B_logo.svg/320px-Disney%2B_logo.svg.png" alt="Disney+" title="Disney+"></li>
+              </ul>
+              
+              
+            
           </div></li>
           <li><div class="jogo">
             <div class="jogo-heading">
               
-                <P>
+                <P class="data-jogo">
                   10/08
                 </P>
                 <p class="estadio">
                   Olimpíadas Feminino
                 </p>
-                <p>
+                <p class="horario-jogo">
                   12:00
                 </p>
               
@@ -106,13 +109,13 @@
           </div></li>
           <li><div class="jogo">
             <div class="jogo-heading">
-              <P>
+              <P class="data-jogo">
                 10/08
               </P>
               <p class="estadio">
                 AMISTOSO
               </p>
-              <p>
+              <p class="horario-jogo">
                 13:00
               </p>
             </div>
@@ -133,13 +136,13 @@
         </div></li>
           <li><div class="jogo">
             <div class="jogo-heading">
-              <P>
+              <P class="data-jogo">
                 10/08
               </P>
               <p class="estadio">
                 Campeonato Turco
               </p>
-              <p>
+              <p class="horario-jogo">
                 15:45
               </p>
             </div>
@@ -160,13 +163,13 @@
         </div></li>
           <li><div class="jogo">
             <div class="jogo-heading">
-                <P>
+                <P class="data-jogo">
                   10/08
                 </P>
                 <p class="estadio">
                   Brasileirão Série A
                 </p>
-                <p>
+                <p class="horario-jogo">
                   19:00
                 </p>
             </div>
@@ -185,33 +188,6 @@
               <img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/commons/2/26/SporTV_2021.png" alt="SporTV" title="SporTV"><img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/pt/a/a2/Logo_Premiere_FC_2018.png" alt="Premiere" title="Premiere">
             </div>
         </div></li>
-        <li><div class="jogo">
-          <div class="jogo-heading">
-            <P>
-              10/08
-            </P>
-            <p class="estadio">
-              Campeonato Argentino
-            </p>
-            <p>
-              20:30
-            </p>
-          </div>
-          <div class="confronto">
-            <div class="time-mandante">
-              <span style="font-size: 0.8em;" class="nome-time">River Plate</span>
-              <span><img class="logo-escudo" src="assets/img/logos/times/libertadores/river-plate.png" alt="River Plate"></span>
-            </div>
-            <span class="versus">X</span>
-            <div class="time-visitante">
-              <span><img class="logo-escudo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Emblema_oficial_del_Club_Atl%C3%A9tico_Hurac%C3%A1n.svg/148px-Emblema_oficial_del_Club_Atl%C3%A9tico_Hurac%C3%A1n.svg.png" alt="Huracán"></span>
-              <span style="font-size: 0.8em;" class="nome-time">Huracán</span>
-            </div>
-          </div>
-          <div class="transmissao">
-            <img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/1920px-ESPN_wordmark.svg.png" alt="ESPN" title="ESPN"><img class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Disney%2B_logo.svg/320px-Disney%2B_logo.svg.png" alt="Disney+" title="Disney+">
-          </div>
-      </div></li>
         </ul>
 
         
@@ -870,69 +846,53 @@
       </li>-->
 
 
-      <div class="jogo" style="height: 240px; ">
+      <div class="jogo-alt">
           <div class="jogo-heading" style=" height: 30px;">
             <p>
               <i style="font-size: 0px;" id="abrir-jogo" class="material-icons">close</i>
             </p>
-            <P style="display: none;">
-              10/08
-            </P>
-            <p class="estadio" style="font-size: 1em;">
+            
+            <p class="estadio-alt">
               AMISTOSO
             </p>
-            <p style="display: none;">
-              10:30
-              
-            </p>
+            
             <p class="botao-fechar">
               <i id="fechar-jogo" class="material-icons">close</i>
             </p>
             
           </div>
-          <div class="confronto" style="height: 120px;">
-            <div class="time-mandante" style="display: block; width: 37.5%; height: 110px;">
+          <div class="confronto confronto-alt">
+            <div class="time-caixa-alt">
               
-              <span style="display: block; width: 80px; height: 80px; margin: auto;"><img style="max-height: 80px; max-width: 80px;" class="logo-escudo" src="https://upload.wikimedia.org/wikipedia/pt/a/a2/Bayer_Leverkusen.png" alt="BAYER LEVERKUSEN"></span>
-              <span style="display: block; height: 10px; margin: auto; text-align: center; color: black;" class="nome-time">BAYER LEVERKUSEN</span>
+              <span class="caixa-escudo-time"><img class="logo-escudo-alt-m" src="https://upload.wikimedia.org/wikipedia/pt/a/a2/Bayer_Leverkusen.png" alt="BAYER LEVERKUSEN"></span>
+              <span class="nome-time-alt-m">BAYER LEVERKUSEN</span>
             </div>
-            <div style="display: block; justify-content: center; align-content: center; width: 25%; height: 80px;">
-              <span style="display: block; font-size: 2.5em; height: 42px; padding: 0px 0px; text-align: center; color: black;" class="versus">10:30</span>
-              <span style="display: block; font-size: 0.9em; padding: 0px; text-align: center; color: black;" class="versus">10/08</span>
+
+            <div class="caixa-datahora">
+              <span class="data-jogo-alt">10/08</span>
+              <span class="horario-jogo-alt">10:30</span>
             </div>
             
-            <div class="time-visitante" style="display: block; width: 37.5%; height: 110px;">
-              <span style="display: block; width: 80px; height: 80px; margin: auto;"><img style="max-height: 80px; max-width: 80px;" class="logo-escudo" src="https://upload.wikimedia.org/wikipedia/pt/1/17/Real_Betis_Balompi%C3%A9.png" alt="REAL BETIS"></span>
-              <span style="display: block; height: 10px; margin: auto; text-align: center; color: black;" class="nome-time">REAL BETIS</span>
+            <div class="time-caixa-alt">
+              <span class="caixa-escudo-time"><img class="logo-escudo-alt-v" src="https://upload.wikimedia.org/wikipedia/pt/1/17/Real_Betis_Balompi%C3%A9.png" alt="REAL BETIS"></span>
+              <span class="nome-time-alt-v">REAL BETIS</span>
             </div>
           </div>
           
-          <div style="height: 89px; background-color: #dc07156b;" class="transmissao">
-            <div style="height: 100%; display: flex; align-items: center;">
-              <div style="background-color: bisque; height: 100%;">
-                <p style="background-color: aqua; font-size: xx-small; text-align: center;">
-                  Canais de TV
-                </p>
-                <div>
-                  <img style="max-height: 80px; max-width: 80px;" class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/1920px-ESPN_wordmark.svg.png" alt="ESPN" title="ESPN">
+          <div style="display: block; height: 118px;">
+            <div style="display: block; width: 100%; height: 20px;">
+              <p style="text-align: center; font-size: smaller;">
+                Transmissão
+              </p>
+              
+            </div>
+            
+            <div style=" height: 85px; display: flex; justify-content: center;">
+              
+                <div class="transmissao-alt">
+                  <img class="logo-transmissão-alt" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/1920px-ESPN_wordmark.svg.png" alt="ESPN" title="ESPN"><a href="https://www.disneyplus.com/en-br" target="_blank"><img class="logo-transmissão-alt" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Disney%2B_logo.svg/320px-Disney%2B_logo.svg.png" alt="Disney+" title="Disney+"></a>
+
                 </div>
-                
-              </div>
-              
-              
-              <div style="height: 70px; width: 1px; box-shadow: 1px 1px 1px lightgray;"></div>
-              <div style="background-color: bisque; height: 100%;">
-                <p style="background-color: aqua; font-size: xx-small; text-align: center;">
-                  Canais de TV
-                </p>
-                <div style="display: flex;">
-                  <img style="max-height: 80px; max-width: 80px;" class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/1920px-ESPN_wordmark.svg.png" alt="ESPN" title="ESPN">
-                  <a href="https://www.disneyplus.com/en-br" target="_blank"><img style="max-height: 80px; max-width: 80px;" class="logo-transmissão" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Disney%2B_logo.svg/320px-Disney%2B_logo.svg.png" alt="Disney+" title="Disney+"></a>
-                </div>
-                
-              </div>
-              
-                
               
             </div>
             

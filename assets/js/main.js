@@ -82,6 +82,7 @@ const listaJogos = document.querySelectorAll('.jogo');
 
 listaJogos.forEach((jogo) => {
     jogo.addEventListener('click', callBack)
+    
 })
 
 
@@ -90,6 +91,59 @@ listaJogos.forEach((jogo) => {
 function callBack(event){
 
     console.log(event.currentTarget);
+    const tituloJogo = event.currentTarget.querySelector('.estadio').innerText;
+    console.log(tituloJogo);
+
+    const dataJogo = event.currentTarget.querySelector('.data-jogo').innerText;
+    const horarioJogo = event.currentTarget.querySelector('.horario-jogo').innerText;
+
+
+
+    const mandante = event.currentTarget.querySelector('.time-mandante');
+    //console.log(mandante);
+
+    const visitante = event.currentTarget.querySelector('.time-visitante');
+    //console.log(visitante);
+    
+    const nomeMandante = mandante.innerText;
+    const nomeVisitante = visitante.innerText;
+
+    console.log(nomeMandante);
+    console.log(nomeVisitante);
+
+    //const imgs = event.currentTarget.querySelectorAll('img.logo-escudo');
+    //console.log(imgs[0]);
+    //console.log(imgs[1]);
+
+
+    const logoMandante = mandante.querySelector('img.logo-escudo').getAttribute('src');
+    
+    console.log(logoMandante);
+    
+    const logoVisitante = visitante.querySelector('img.logo-escudo').getAttribute('src');
+    
+    console.log(logoVisitante);
+
+
+   
+
+
+    const tituloJogoAlt = document.querySelector('.estadio-alt');
+    tituloJogoAlt.innerHTML = tituloJogo;
+    const dataJogoAlt = document.querySelector('.data-jogo-alt');
+    dataJogoAlt.innerHTML = dataJogo;
+    const horarioJogoAlt = document.querySelector('.horario-jogo-alt');
+    horarioJogoAlt.innerHTML = horarioJogo;
+    
+    const mandanteAlt = document.querySelector('.nome-time-alt-m');
+    const visitanteAlt = document.querySelector('.nome-time-alt-v');
+    mandanteAlt.innerHTML = nomeMandante;
+    visitanteAlt.innerHTML = nomeVisitante;
+    
+    const logoMandanteAlt = document.querySelector('img.logo-escudo-alt-m');
+    logoMandanteAlt.setAttribute('src', logoMandante);
+    const logoVisitanteAlt = document.querySelector('img.logo-escudo-alt-v');
+    logoVisitanteAlt.setAttribute('src', logoVisitante);
 }
 
 const linksExternos = document.querySelectorAll('a[href^="https"]');
@@ -101,6 +155,10 @@ function handleLink(event){
     event.preventDefault();
     
 }
+
+//const tituloJogo = document.querySelector('.estadio');
+    //console.log(tituloJogo);
+
 
 /*
 const jogos = document.querySelector('.listaJogos')
