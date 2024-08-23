@@ -1,0 +1,5 @@
+*, body, html{
+    background-image: url(../img/background/trianglify-lowres.png);
+    background-size: cover;
+    background-position: center no-repeat;
+}

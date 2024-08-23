@@ -148,17 +148,27 @@ function callBack(event){
 
     const listaTransmissao = event.currentTarget.querySelectorAll('li');
     console.log(listaTransmissao);
-    const listaTransmissaoAlt = document.querySelector('transmissao-alt');
+    const listaTransmissaoAlt = document.querySelector('.transmissao-alt');
+    
     listaTransmissao.forEach((item) => {
-        //listaTransmissaoAlt.appendChild(item);
-        console.log(item);
-        const cloneLi = item.cloneNode(true);
-        console.log(cloneLi);
-        //listaTransmissaoAlt.appendChild(cloneLi);
-        const novoLi = document.createElement('li');
-        novoLi.appendChild(cloneLi);
         
+        
+        
+        //cloneLi.classList.add('logo-transmissão-alt');
+        //cloneLi.children[1].classList.remove('.logo-transmissão')
+        console.log(item);
+        //console.log(item.children[0]);
+        const cloneLi = item.cloneNode(true);
+        listaTransmissaoAlt.appendChild(cloneLi);
+        
+        const listaImg = listaTransmissaoAlt.querySelector('.logo-transmissao');
+        listaImg.classList.remove('logo-transmissao');
+        listaImg.classList.add('logo-transmissao-alt');
+        console.log(listaTransmissaoAlt);
     })
+    
+    
+
 }
 
 const linksExternos = document.querySelectorAll('a[href^="https"]');
@@ -182,3 +192,13 @@ jogos.addEventListener('click', callbackLista);
 function callbackLista(event){
     console.log(event.target);
 }*/
+
+//
+//const btnFecharJogo = document.querySelector('#fechar-jogo');
+//const jogoAlt = document.getElementById('jogo-alt');
+
+function fecharJogo(){
+    if(jogoAlt.style.display == 'block'){
+        jogoAlt.style.display = 'none'
+    }
+}
