@@ -92,7 +92,7 @@ function callBack(event){
 
     console.log(event.currentTarget);
     const tituloJogo = event.currentTarget.querySelector('.estadio').innerText;
-    console.log(tituloJogo);
+    //console.log(tituloJogo);
 
     const dataJogo = event.currentTarget.querySelector('.data-jogo').innerText;
     const horarioJogo = event.currentTarget.querySelector('.horario-jogo').innerText;
@@ -108,8 +108,8 @@ function callBack(event){
     const nomeMandante = mandante.innerText;
     const nomeVisitante = visitante.innerText;
 
-    console.log(nomeMandante);
-    console.log(nomeVisitante);
+    //console.log(nomeMandante);
+    //console.log(nomeVisitante);
 
     //const imgs = event.currentTarget.querySelectorAll('img.logo-escudo');
     //console.log(imgs[0]);
@@ -118,11 +118,11 @@ function callBack(event){
 
     const logoMandante = mandante.querySelector('img.logo-escudo').getAttribute('src');
     
-    console.log(logoMandante);
+    //console.log(logoMandante);
     
     const logoVisitante = visitante.querySelector('img.logo-escudo').getAttribute('src');
     
-    console.log(logoVisitante);
+    //console.log(logoVisitante);
 
 
    
@@ -144,6 +144,10 @@ function callBack(event){
     logoMandanteAlt.setAttribute('src', logoMandante);
     const logoVisitanteAlt = document.querySelector('img.logo-escudo-alt-v');
     logoVisitanteAlt.setAttribute('src', logoVisitante);
+
+
+    const listaTransmissao = event.currentTarget.querySelectorAll('li');
+    console.log(listaTransmissao);
 }
 
 const linksExternos = document.querySelectorAll('a[href^="https"]');
