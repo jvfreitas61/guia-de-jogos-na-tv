@@ -148,6 +148,17 @@ function callBack(event){
 
     const listaTransmissao = event.currentTarget.querySelectorAll('li');
     console.log(listaTransmissao);
+    const listaTransmissaoAlt = document.querySelector('transmissao-alt');
+    listaTransmissao.forEach((item) => {
+        //listaTransmissaoAlt.appendChild(item);
+        console.log(item);
+        const cloneLi = item.cloneNode(true);
+        console.log(cloneLi);
+        //listaTransmissaoAlt.appendChild(cloneLi);
+        const novoLi = document.createElement('li');
+        novoLi.appendChild(cloneLi);
+        
+    })
 }
 
 const linksExternos = document.querySelectorAll('a[href^="https"]');
