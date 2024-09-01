@@ -202,3 +202,86 @@ function fecharJogo(){
         jogoAlt.style.display = 'none'
     }
 }
+
+function carregar(){
+    fetch('assets/js/jogos.json')
+        .then(response => response.json())
+        .then(jogos => {
+            const listaJogos = document.querySelector('#listaJogos');
+            console.log(listaJogos);
+            jogos.map(jogo=>{
+                const card = document.createElement("li");
+                listaJogos.appendChild(card);
+                const divJogo = document.createElement("div");
+                card.appendChild(divJogo);
+                divJogo.classList.add("jogo");
+                const jogoHeading = document.createElement("div")
+                divJogo.appendChild(jogoHeading);
+                jogoHeading.classList.add("jogo-heading");
+                    const dataJogo = document.createElement("p")
+                    jogoHeading.appendChild(dataJogo);
+                    dataJogo.classList.add("data-jogo")
+                    dataJogo.textContent = jogo.dataJogo
+
+                    const estadio = document.createElement("p")
+                    jogoHeading.appendChild(estadio);
+                    estadio.classList.add("estadio")
+                    estadio.textContent = jogo.estadio
+
+                    const horaJogo = document.createElement("p")
+                    jogoHeading.appendChild(horaJogo);
+                    horaJogo.classList.add("horario-jogo")
+                    horaJogo.textContent = jogo.horaJogo
+
+                const confronto = document.createElement("div");
+                divJogo.appendChild(confronto);
+                confronto.classList.add("confronto")
+                    const mandante = document.createElement("div")
+                    confronto.appendChild(mandante);
+                    mandante.classList.add("time-mandante")
+                        const nomeMandante = document.createElement("span")
+                        mandante.appendChild(nomeMandante)
+                        nomeMandante.classList.add("nome-time")
+                        nomeMandante.textContent = jogo.nomeMandante
+
+                        const logoMandante = document.createElement("span")
+                        mandante.appendChild(logoMandante)
+                        
+                        const imgMandante = document.createElement("img")
+                        logoMandante.appendChild(imgMandante)
+                        imgMandante.classList.add("logo-escudo")
+                        imgMandante.src = jogo.imgMandante
+                        imgMandante.alt = jogo.nomeMandante
+
+                    const versus = document.createElement("span")
+                    confronto.appendChild(versus);
+                    versus.classList.add("versus")
+                    versus.textContent = "X"
+
+                    const visitante = document.createElement("div")
+                    confronto.appendChild(visitante);
+                    visitante.classList.add("time-visitante")
+                        
+                        const logoVisitante = document.createElement("span")
+                        visitante.appendChild(logoVisitante)
+                        
+                        const imgVisitante = document.createElement("img")
+                        logoVisitante.appendChild(imgVisitante)
+                        imgVisitante.classList.add("logo-escudo")
+                        imgVisitante.src = jogo.imgVisitante
+                        imgVisitante.alt = jogo.nomeVisitante
+
+                        const nomeVisitante = document.createElement("span")
+                        visitante.appendChild(nomeVisitante)
+                        nomeVisitante.classList.add("nome-time")
+                        nomeVisitante.textContent = jogo.nomeVisitante
+
+                const transmissao = document.createElement("ul")
+                divJogo.appendChild(transmissao);
+                transmissao.classList.add("transmissao")
+
+            })
+        })
+}
+
+carregar();
