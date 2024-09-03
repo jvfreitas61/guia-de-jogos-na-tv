@@ -6,7 +6,8 @@
         "nomeMandante": "Brighton",
         "imgMandante": "https://upload.wikimedia.org/wikipedia/pt/3/3f/Brighton_%26_Hove_Albion.png",
         "nomeVisitante": "Manchester United",
-        "imgVisitante": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Manchester_United_FC_crest.svg/237px-Manchester_United_FC_crest.svg.png"
+        "imgVisitante": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Manchester_United_FC_crest.svg/237px-Manchester_United_FC_crest.svg.png",
+        "transmissao": ["Primiere", "Disney"]
     },
     {
         "dataJogo": "24/08",
@@ -15,6 +16,7 @@
         "nomeMandante": "RB Leipzig",
         "imgMandante": "https://upload.wikimedia.org/wikipedia/pt/6/65/RB_Leipzig_2020_Logo.png",
         "nomeVisitante": "VfL Bochum",
-        "imgVisitante": "https://upload.wikimedia.org/wikipedia/pt/5/5c/VfL-Bochum.png"
+        "imgVisitante": "https://upload.wikimedia.org/wikipedia/pt/5/5c/VfL-Bochum.png",
+        "transmissao": ["Globo", "Sportv"]
     }
 ]
