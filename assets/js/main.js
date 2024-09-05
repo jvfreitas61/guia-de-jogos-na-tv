@@ -54,7 +54,7 @@ function abrirJogo(){
 }*/
 
 const listaJogos = document.querySelectorAll('.jogo');
-console.log(listaJogos)
+console.log(listaJogos);
 
 listaJogos.forEach((jogo) => {
     jogo.addEventListener('click', callBack)
@@ -149,15 +149,7 @@ function callBack(event) {
 
 }
 
-const linksExternos = document.querySelectorAll('a[href^="https"]');
-linksExternos.forEach((link) => {
-    link.addEventListener('click', handleLink);
-})
 
-function handleLink(event) {
-    event.preventDefault();
-
-}
 
 //const tituloJogo = document.querySelector('.estadio');
 //console.log(tituloJogo);
@@ -270,6 +262,13 @@ function jogoHoje() {
                     logoCanal.alt = jogo.transmissao[i].nomeCanal
                     //linkCanal.preventDefault();
                 }
+                
+            })
+            const jogosSelecionados = document.querySelectorAll(".jogo")
+            console.log(jogosSelecionados);
+            jogosSelecionados.forEach((jogo) => {
+                jogo.addEventListener('click', callBack)
+            
             })
         })
 }
@@ -371,3 +370,13 @@ function jogoAmanha() {
 }
 
 jogoAmanha();
+
+const linksExternos = document.querySelectorAll('a[href^="https"]');
+linksExternos.forEach((link) => {
+    link.addEventListener('click', handleLink);
+})
+
+function handleLink(event) {
+    event.preventDefault();
+
+}
