@@ -53,10 +53,11 @@ function abrirJogo(){
 
 }*/
 
-const listaJogos = document.querySelectorAll('.jogo');
-console.log(listaJogos);
+const arrayJogos = document.querySelectorAll('.jogo');
+const jogoAlt = document.querySelector('#jogo-alt')
+/*console.log(arrayJogos);*/
 
-listaJogos.forEach((jogo) => {
+arrayJogos.forEach((jogo) => {
     jogo.addEventListener('click', callBack)
 
 })
@@ -104,7 +105,8 @@ function callBack(event) {
 
 
 
-
+    
+    
 
     const tituloJogoAlt = document.querySelector('.estadio-alt');
     tituloJogoAlt.innerHTML = tituloJogo;
@@ -126,30 +128,31 @@ function callBack(event) {
 
     const listaTransmissao = event.currentTarget.querySelectorAll('li');
     console.log(listaTransmissao);
-    const listaTransmissaoAlt = document.querySelector('.transmissao-alt');
+
+    const listaTransmissaoAlt = document.querySelector(".transmissao-alt");
+
+  
 
     listaTransmissao.forEach((item) => {
-
-
-
-        //cloneLi.classList.add('logo-transmissão-alt');
-        //cloneLi.children[1].classList.remove('.logo-transmissão')
-        console.log(item);
-        //console.log(item.children[0]);
         const cloneLi = item.cloneNode(true);
         listaTransmissaoAlt.appendChild(cloneLi);
-
         const listaImg = listaTransmissaoAlt.querySelector('.logo-transmissao');
         listaImg.classList.remove('logo-transmissao');
         listaImg.classList.add('logo-transmissao-alt');
         console.log(listaTransmissaoAlt);
     })
 
+  
 
+
+    //jogoAlt.classList.add("jogo-aberto")
 
 }
 
-
+function fecharJogo() {
+    jogoAlt.classList.remove("jogo-aberto")
+    jogoAlt.classList.remove("jogo-fechado")
+}
 
 //const tituloJogo = document.querySelector('.estadio');
 //console.log(tituloJogo);
@@ -167,14 +170,10 @@ function callbackLista(event){
 //const btnFecharJogo = document.querySelector('#fechar-jogo');
 //const jogoAlt = document.getElementById('jogo-alt');
 
-function fecharJogo() {
-    if (jogoAlt.style.display == 'block') {
-        jogoAlt.style.display = 'none'
-    }
-}
+
 
 function jogoHoje() {
-    fetch('assets/js/jogos.json')
+    fetch('assets/js/jogosHoje.json')
         .then(response => response.json())
         .then(jogos => {
             const listaJogos = document.querySelector('#jogosHoje');
@@ -278,7 +277,7 @@ jogoHoje();
 
 
 function jogoAmanha() {
-    fetch('assets/js/jogos.json')
+    fetch('assets/js/jogosAmanha.json')
         .then(response => response.json())
         .then(jogos => {
             const listaJogos = document.querySelector('#jogosAmanha');

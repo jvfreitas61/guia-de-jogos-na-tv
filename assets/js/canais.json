@@ -1,0 +1,27 @@
+[
+    {
+        "nomeCanal": "ESPN",
+        "link": "#",
+        "logoCanal": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/1920px-ESPN_wordmark.svg.png"
+    },
+    {
+        "nomeCanal": "Disney+",
+        "link": "https://www.disneyplus.com/pt-br/home",
+        "logoCanal": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Disney%2B_logo.svg/320px-Disney%2B_logo.svg.png"
+    },
+    {
+        "nomeCanal": "SporTV",
+        "link": "#",
+        "logoCanal": "https://upload.wikimedia.org/wikipedia/commons/2/26/SporTV_2021.png"
+    },
+    {
+        "nomeCanal": "Canal GOAT",
+        "link": "https://www.youtube.com/@canalgoatbr",
+        "logoCanal": "assets/img/logos/canais/goat.png"
+    },
+    {
+        "nomeCanal": "OneFootball",
+        "link": "https://onefootball.com/en/tv-hub",
+        "logoCanal": "assets/img/logos/canais/OneFootball.png"
+    }
+]

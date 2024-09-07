@@ -1,0 +1,82 @@
+[
+    {
+        "nome": "Arsenal",
+        "escudo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/53/Arsenal_FC.svg/204px-Arsenal_FC.svg.png"
+    },
+    {
+        "nome": "Aston Villa",
+        "escudo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Aston_Villa_FC_new_crest.svg/272px-Aston_Villa_FC_new_crest.svg.png"
+    },
+    {
+        "nome": "Bournemouth",
+        "escudo": "https://upload.wikimedia.org/wikipedia/en/e/e5/AFC_Bournemouth_%282013%29.svg"
+    },
+    {
+        "nome": "Brentford",
+        "escudo": ""
+    },
+    {
+        "nome": "Brighton",
+        "escudo": "https://upload.wikimedia.org/wikipedia/pt/3/3f/Brighton_%26_Hove_Albion.png"
+    },
+    {
+        "nome": "Chelsea",
+        "escudo": ""
+    },
+    {
+        "nome": "Crystal Palace",
+        "escudo": ""
+    },
+    {
+        "nome": "Everton",
+        "escudo": ""
+    },
+    {
+        "nome": "Fulham",
+        "escudo": ""
+    },
+    {
+        "nome": "Ipswich Town",
+        "escudo": ""
+    },
+    {
+        "nome": "Leicester City",
+        "escudo": ""
+    },
+    {
+        "nome": "Liverpool",
+        "escudo": ""
+    },
+    {
+        "nome": "Manchester City",
+        "escudo": ""
+    },
+    {
+        "nome": "Manchester United",
+        "escudo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Manchester_United_FC_crest.svg/237px-Manchester_United_FC_crest.svg.png"
+    },
+    {
+        "nome": "Newcastle United",
+        "escudo": ""
+    },
+    {
+        "nome": "Nottingham Forest",
+        "escudo": ""
+    },
+    {
+        "nome": "Southampton",
+        "escudo": ""
+    },
+    {
+        "nome": "Tottenham",
+        "escudo": ""
+    },
+    {
+        "nome": "West Ham United",
+        "escudo": ""
+    },
+    {
+        "nome": "Wolverhampton",
+        "escudo": ""
+    }
+]

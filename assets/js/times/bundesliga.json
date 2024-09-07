@@ -1,0 +1,74 @@
+[
+    {
+        "nome": "Augsburg",
+        "escudo": ""
+    },
+    {
+        "nome": "Bayer Leverkusen",
+        "escudo": ""
+    },
+    {
+        "nome": "Bayern de Munique",
+        "escudo": ""
+    },
+    {
+        "nome": "Bochum",
+        "escudo": "https://upload.wikimedia.org/wikipedia/pt/5/5c/VfL-Bochum.png"
+    },
+    {
+        "nome": "Borussia Dortmund",
+        "escudo": ""
+    },
+    {
+        "nome": "Borussia Mönchengladbach",
+        "escudo": ""
+    },
+    {
+        "nome": "Eintracht Frankfurt",
+        "escudo": ""
+    },
+    {
+        "nome": "Freiburg",
+        "escudo": ""
+    },
+    {
+        "nome": "Heidenheim",
+        "escudo": ""
+    },
+    {
+        "nome": "Hoffenheim",
+        "escudo": ""
+    },
+    {
+        "nome": "Holstein Kiel",
+        "escudo": ""
+    },
+    {
+        "nome": "Mainz 05",
+        "escudo": ""
+    },
+    {
+        "nome": "RB Leipzig",
+        "escudo": "https://upload.wikimedia.org/wikipedia/pt/6/65/RB_Leipzig_2020_Logo.png"
+    },
+    {
+        "nome": "St. Pauli",
+        "escudo": ""
+    },
+    {
+        "nome": "Stuttgart",
+        "escudo": ""
+    },
+    {
+        "nome": "Union Berlin",
+        "escudo": ""
+    },
+    {
+        "nome": "Werder Bremen",
+        "escudo": ""
+    },
+    {
+        "nome": "Wolfsburg",
+        "escudo": ""
+    }
+]
