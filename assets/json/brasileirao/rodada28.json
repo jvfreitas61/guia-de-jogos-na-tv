@@ -1,0 +1,203 @@
+[
+    {
+        "dataJogo": "28/09",
+        "estadio": "Brinco de Ouro",
+        "horaJogo": "18:30",
+        "mandante":{
+            "nome": "Palmeiras",
+            "escudo": "assets/img/logos/times/brasil/palmeiras.png"
+        },
+        "visitante": {
+            "nome": "Atlético-MG",
+            "escudo": "assets/img/logos/times/brasil/atletico-mg.png"
+        },
+        "transmissao": [
+            {
+                "nomeCanal": "Premiere",
+                "link": "https://premiere.globo.com/",
+                "logoCanal": "https://upload.wikimedia.org/wikipedia/pt/a/a2/Logo_Premiere_FC_2018.png"
+            }
+        ]
+    },
+    {
+        "dataJogo": "28/09",
+        "estadio": "Nilton Santos",
+        "horaJogo": "21:00",
+        "mandante":{
+            "nome": "Botafogo",
+            "escudo": "assets/img/logos/times/brasil/botafogo.png"
+        },
+        "visitante": {
+            "nome": "Grêmio",
+            "escudo": "assets/img/logos/times/brasil/gremio.png"
+        },
+        "transmissao": [
+            {
+               "nomeCanal": "Premiere",
+                "link": "https://premiere.globo.com/",
+                "logoCanal": "https://upload.wikimedia.org/wikipedia/pt/a/a2/Logo_Premiere_FC_2018.png" 
+            }
+        ]
+    },
+    {
+        "dataJogo": "29/09",
+        "estadio": "Beira-Rio",
+        "horaJogo": "11:00",
+        "mandante":{
+            "nome": "Internacional",
+            "escudo": "assets/img/logos/times/brasil/internacional.png"
+        },
+        "visitante": {
+            "nome": "Vitória",
+            "escudo": "assets/img/logos/times/brasil/vitoria.png"
+        },
+        "transmissao": [
+            {
+                "nomeCanal": "Premiere",
+                "link": "https://premiere.globo.com/",
+                "logoCanal": "https://upload.wikimedia.org/wikipedia/pt/a/a2/Logo_Premiere_FC_2018.png"
+            }
+        ]
+    },
+    {
+        "dataJogo": "29/09",
+        "estadio": "Morumbis",
+        "horaJogo": "16:00",
+        "mandante":{
+            "nome": "São Paulo",
+        "escudo": "assets/img/logos/times/brasil/sao-paulo.png"
+        },
+        "visitante": {
+            "nome": "Corinthians",
+        "escudo": "assets/img/logos/times/brasil/corinthians.png"
+        },
+        "transmissao": [
+            {
+                "nomeCanal": "Premiere",
+                "link": "https://premiere.globo.com/",
+                "logoCanal": "https://upload.wikimedia.org/wikipedia/pt/a/a2/Logo_Premiere_FC_2018.png"
+            }
+        ]
+    },
+    {
+        "dataJogo": "29/09",
+        "estadio": "Castelão",
+        "horaJogo": "16:00",
+        "mandante":{
+            "nome": "Fortaleza",
+        "escudo": "assets/img/logos/times/brasil/fortaleza.png"
+        },
+        "visitante": {
+            "nome": "Cuiabá",
+        "escudo": "assets/img/logos/times/brasil/cuiaba.png"
+        },
+        "transmissao": [
+            {
+                "nomeCanal": "Premiere",
+                "link": "https://premiere.globo.com/",
+                "logoCanal": "https://upload.wikimedia.org/wikipedia/pt/a/a2/Logo_Premiere_FC_2018.png"
+            }
+        ]
+    },
+    {
+        "dataJogo": "29/09",
+        "estadio": "Antônio Accioly",
+        "horaJogo": "16:00",
+        "mandante":{
+            "nome": "Atlético-GO",
+        "escudo": "assets/img/logos/times/brasil/atletico-go.png"
+        },
+        "visitante": {
+            "nome": "Fluminense",
+        "escudo": "assets/img/logos/times/brasil/fluminense.png"
+        },
+        "transmissao": [
+            {
+                "nomeCanal": "Premiere",
+                "link": "https://premiere.globo.com/",
+                "logoCanal": "https://upload.wikimedia.org/wikipedia/pt/a/a2/Logo_Premiere_FC_2018.png"
+            }
+        ]
+    },
+    {
+        "dataJogo": "29/09",
+        "estadio": "Mineirão",
+        "horaJogo": "18:30",
+        "mandante":{
+            "nome": "Cruzeiro",
+        "escudo": "assets/img/logos/times/brasil/cruzeiro.png"
+        },
+        "visitante": {
+            "nome": "Vasco",
+        "escudo": "assets/img/logos/times/brasil/vasco.png"
+        },
+        "transmissao": [
+            {
+                "nomeCanal": "Premiere",
+                "link": "https://premiere.globo.com/",
+                "logoCanal": "https://upload.wikimedia.org/wikipedia/pt/a/a2/Logo_Premiere_FC_2018.png"
+            }
+        ]
+    },
+    {
+        "dataJogo": "29/09",
+        "estadio": "Arena Fonte Nova",
+        "horaJogo": "18:30",
+        "mandante":{
+            "nome": "Bahia",
+        "escudo": "assets/img/logos/times/brasil/bahia.png"
+        },
+        "visitante": {
+            "nome": "Criciúma",
+        "escudo": "assets/img/logos/times/brasil/criciuma.png"
+        },
+        "transmissao": [
+            {
+                "nomeCanal": "Premiere",
+                "link": "https://premiere.globo.com/",
+                "logoCanal": "https://upload.wikimedia.org/wikipedia/pt/a/a2/Logo_Premiere_FC_2018.png"
+            }
+        ]
+    },
+    {
+        "dataJogo": "29/09",
+        "estadio": "Alfredo Jaconi",
+        "horaJogo": "18:30",
+        "mandante":{
+            "nome": "Juventude",
+        "escudo": "assets/img/logos/times/brasil/juventude.png"
+        },
+        "visitante": {
+            "nome": "RB Bragantino",
+        "escudo": "assets/img/logos/times/brasil/rb-bragantino.png"
+        },
+        "transmissao": [
+            {
+                "nomeCanal": "Premiere",
+                "link": "https://premiere.globo.com/",
+                "logoCanal": "https://upload.wikimedia.org/wikipedia/pt/a/a2/Logo_Premiere_FC_2018.png"
+            }
+        ]
+    },
+    {
+        "dataJogo": "29/09",
+        "estadio": "Maracanã",
+        "horaJogo": "20:00",
+        "mandante":{
+            "nome": "Flamengo",
+        "escudo": "assets/img/logos/times/brasil/flamengo.png"
+        },
+        "visitante": {
+            "nome": "Athletico-PR",
+        "escudo": "assets/img/logos/times/brasil/athletico-pr.png"
+        },
+        "transmissao": [
+            {
+                "nomeCanal": "Premiere",
+                "link": "https://premiere.globo.com/",
+                "logoCanal": "https://upload.wikimedia.org/wikipedia/pt/a/a2/Logo_Premiere_FC_2018.png"
+            }
+        ]
+    }
+]
+

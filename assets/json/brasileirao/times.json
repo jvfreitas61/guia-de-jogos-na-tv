@@ -1,0 +1,82 @@
+[
+    {
+        "nome": "Athletico-PR",
+        "escudo": "assets/img/logos/times/brasil/athletico-pr.png"
+    },
+    {
+        "nome": "Atlético-GO",
+        "escudo": "assets/img/logos/times/brasil/atletico-go.png"
+    },
+    {
+        "nome": "Atlético-MG",
+        "escudo": "assets/img/logos/times/brasil/atletico-mg.png"
+    },
+    {
+        "nome": "Bahia",
+        "escudo": "assets/img/logos/times/brasil/bahia.png"
+    },
+    {
+        "nome": "Botafogo",
+        "escudo": "assets/img/logos/times/brasil/botafogo.png"
+    },
+    {
+        "nome": "Corinthians",
+        "escudo": "assets/img/logos/times/brasil/corinthians.png"
+    },
+    {
+        "nome": "Criciúma",
+        "escudo": "assets/img/logos/times/brasil/criciuma.png"
+    },
+    {
+        "nome": "Cruzeiro",
+        "escudo": "assets/img/logos/times/brasil/cruzeiro.png"
+    },
+    {
+        "nome": "Cuiabá",
+        "escudo": "assets/img/logos/times/brasil/cuiaba.png"
+    },
+    {
+        "nome": "Flamengo",
+        "escudo": "assets/img/logos/times/brasil/flamengo.png"
+    },
+    {
+        "nome": "Fluminense",
+        "escudo": "assets/img/logos/times/brasil/fluminense.png"
+    },
+    {
+        "nome": "Fortaleza",
+        "escudo": "assets/img/logos/times/brasil/fortaleza.png"
+    },
+    {
+        "nome": "Grêmio",
+        "escudo": "assets/img/logos/times/brasil/gremio.png"
+    },
+    {
+        "nome": "Internacional",
+        "escudo": "assets/img/logos/times/brasil/internacional.png"
+    },
+    {
+        "nome": "Juventude",
+        "escudo": "assets/img/logos/times/brasil/juventude.png"
+    },
+    {
+        "nome": "Palmeiras",
+        "escudo": "assets/img/logos/times/brasil/palmeiras.png"
+    },
+    {
+        "nome": "RB Bragantino",
+        "escudo": "assets/img/logos/times/brasil/rb-bragantino.png"
+    },
+    {
+        "nome": "São Paulo",
+        "escudo": "assets/img/logos/times/brasil/sao-paulo.png"
+    },
+    {
+        "nome": "Vasco",
+        "escudo": "assets/img/logos/times/brasil/vasco.png"
+    },
+    {
+        "nome": "Vitória",
+        "escudo": "assets/img/logos/times/brasil/vitoria.png"
+    }
+]
