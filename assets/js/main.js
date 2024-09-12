@@ -226,11 +226,12 @@ function criarJogo(jogosJson, listaJogos) {
                 for (var i = 0; i < jogo.transmissao.length; i++) {
                     const canal = document.createElement("li")
                     transmissao.appendChild(canal);
-                    const linkCanal = document.createElement("a")
-                    canal.appendChild(linkCanal)
-                    linkCanal.href = jogo.transmissao[i].link
+                    //const linkCanal = document.createElement("a")
+                    //canal.appendChild(linkCanal)
+                    //linkCanal.href = jogo.transmissao[i].link
                     const logoCanal = document.createElement("img")
-                    linkCanal.appendChild(logoCanal)
+                    //linkCanal.appendChild(logoCanal)
+                    canal.appendChild(logoCanal);
                     logoCanal.classList.add("logo-transmissao")
                     logoCanal.src = jogo.transmissao[i].logoCanal
                     logoCanal.alt = jogo.transmissao[i].nomeCanal
