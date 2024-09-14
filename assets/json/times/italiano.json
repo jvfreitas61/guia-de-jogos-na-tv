@@ -1,0 +1,82 @@
+[
+    {
+        "nome": "Atalanta",
+        "escudo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/05/PSV_Eindhoven.svg/291px-PSV_Eindhoven.svg.png"
+    },
+    {
+        "nome": "Bologna",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Bologna_F.C._1909_logo.svg"
+    },
+    {
+        "nome": "Cagliari",
+        "escudo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/61/Cagliari_Calcio_1920.svg/198px-Cagliari_Calcio_1920.svg.png"
+    },
+    {
+        "nome": "Como",
+        "escudo": ""
+    },
+    {
+        "nome": "Empoli",
+        "escudo": "https://upload.wikimedia.org/wikipedia/pt/2/29/EmpoliFC_Logo2014.png"
+    },
+    {
+        "nome": "Fiorentina",
+        "escudo": ""
+    },
+    {
+        "nome": "Genoa",
+        "escudo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2c/Genoa_CFC_crest.svg/179px-Genoa_CFC_crest.svg.png"
+    },
+    {
+        "nome": "Hellas Verona",
+        "escudo": ""
+    },
+    {
+        "nome": "Inter de Milão",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/FC_Internazionale_Milano_2021.svg/240px-FC_Internazionale_Milano_2021.svg.png"
+    },
+    {
+        "nome": "Juventus",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Juventus_FC_-_pictogram_black_%28Italy%2C_2017%29.svg/152px-Juventus_FC_-_pictogram_black_%28Italy%2C_2017%29.svg.png"
+    },
+    {
+        "nome": "Lazio",
+        "escudo": ""
+    },
+    {
+        "nome": "Lecce",
+        "escudo": "https://upload.wikimedia.org/wikipedia/pt/6/6e/US_Lecce.png"
+    },
+    {
+        "nome": "Milan",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Logo_of_AC_Milan.svg/153px-Logo_of_AC_Milan.svg.png"
+    },
+    {
+        "nome": "Monza",
+        "escudo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/AC_Monza_logo_%282021%29.svg/171px-AC_Monza_logo_%282021%29.svg.png"
+    },
+    {
+        "nome": "Napoli",
+        "escudo": "https://logodetimes.com/times/societa-sportiva-calcio-napoli/societa-sportiva-calcio-napoli-256.png"
+    },
+    {
+        "nome": "Parma",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Logo_Parma_Calcio_1913_%28adozione_2016%29.png/197px-Logo_Parma_Calcio_1913_%28adozione_2016%29.png"
+    },
+    {
+        "nome": "Roma",
+        "escudo": "https://upload.wikimedia.org/wikipedia/pt/8/8c/AS_Roma_logo.png"
+    },
+    {
+        "nome": "Torino",
+        "escudo": ""
+    },
+    {
+        "nome": "Udinese",
+        "escudo": ""
+    },
+    {
+        "nome": "Venezia",
+        "escudo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU1t88HBSsgU4MxRUAolW9lCJu_E0MuJrUSA&usqp=CAU"
+    }
+]

@@ -1,0 +1,58 @@
+[
+    {
+        "nome": "PSV",
+        "escudo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/05/PSV_Eindhoven.svg/291px-PSV_Eindhoven.svg.png"
+    },
+    {
+        "nome": "Lyon",
+        "escudo": "https://upload.wikimedia.org/wikipedia/pt/6/6d/Olympique_lyonnais.png"
+    },
+    {
+        "nome": "Monaco",
+        "escudo": "https://upload.wikimedia.org/wikipedia/pt/6/6f/ASMonacoFC2021.png"
+    },
+    {
+        "nome": "Paris Saint-Germain",
+        "escudo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Paris_Saint-Germain_F.C..svg/240px-Paris_Saint-Germain_F.C..svg.png"
+    },
+    {
+        "nome": "Porto",
+        "escudo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f1/FC_Porto.svg/180px-FC_Porto.svg.png"
+    },
+    {
+        "nome": "Lens",
+        "escudo": ""
+    },
+    {
+        "nome": "Augsburg",
+        "escudo": ""
+    },
+    {
+        "nome": "Philadelphia Union",
+        "escudo": ""
+    },
+    {
+        "nome": "Inter Miami",
+        "escudo": "https://upload.wikimedia.org/wikipedia/pt/c/c1/Inter_Miami_CF.png"
+    },
+    {
+        "nome": "Al Hilal",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Al_Hilal_SFC_Logo.svg/185px-Al_Hilal_SFC_Logo.svg.png"
+    },
+    {
+        "nome": "Boca Juniors",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Boca_Juniors_logo18.svg/203px-Boca_Juniors_logo18.svg.png"
+    },
+    {
+        "nome": "Racing",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/5/56/Escudo_de_Racing_Club_%282014%29.svg"
+    },
+    {
+        "nome": "Independiente",
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/d/db/Escudo_del_Club_Atl%C3%A9tico_Independiente.svg"
+    },
+    {
+        "nome": "Augsburg",
+        "escudo": ""
+    }
+]

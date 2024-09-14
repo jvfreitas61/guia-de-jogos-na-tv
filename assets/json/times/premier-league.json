@@ -13,7 +13,7 @@
     },
     {
         "nome": "Brentford",
-        "escudo": ""
+        "escudo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2a/Brentford_FC_crest.svg/240px-Brentford_FC_crest.svg.png"
     },
     {
         "nome": "Brighton",
@@ -21,7 +21,7 @@
     },
     {
         "nome": "Chelsea",
-        "escudo": ""
+        "escudo": "https://upload.wikimedia.org/wikipedia/pt/c/cc/Chelsea_FC.svg"
     },
     {
         "nome": "Crystal Palace",
@@ -29,7 +29,7 @@
     },
     {
         "nome": "Everton",
-        "escudo": ""
+        "escudo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7c/Everton_FC_logo.svg/235px-Everton_FC_logo.svg.png"
     },
     {
         "nome": "Fulham",
@@ -37,7 +37,7 @@
     },
     {
         "nome": "Ipswich Town",
-        "escudo": ""
+        "escudo": "https://upload.wikimedia.org/wikipedia/pt/2/2a/Ipswich_Town_FC.png"
     },
     {
         "nome": "Leicester City",
@@ -45,11 +45,11 @@
     },
     {
         "nome": "Liverpool",
-        "escudo": ""
+        "escudo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/Liverpool_FC.svg/176px-Liverpool_FC.svg.png"
     },
     {
         "nome": "Manchester City",
-        "escudo": ""
+        "escudo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/Manchester_City_FC_badge.svg/240px-Manchester_City_FC_badge.svg.png"
     },
     {
         "nome": "Manchester United",
@@ -57,19 +57,19 @@
     },
     {
         "nome": "Newcastle United",
-        "escudo": ""
+        "escudo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Newcastle_United_Logo.svg/238px-Newcastle_United_Logo.svg.png"
     },
     {
         "nome": "Nottingham Forest",
-        "escudo": ""
+        "escudo": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e5/Nottingham_Forest_F.C._logo.svg/113px-Nottingham_Forest_F.C._logo.svg.png"
     },
     {
         "nome": "Southampton",
-        "escudo": ""
+        "escudo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c9/FC_Southampton.svg/210px-FC_Southampton.svg.png"
     },
     {
         "nome": "Tottenham",
-        "escudo": ""
+        "escudo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b4/Tottenham_Hotspur.svg/117px-Tottenham_Hotspur.svg.png"
     },
     {
         "nome": "West Ham United",
@@ -77,6 +77,6 @@
     },
     {
         "nome": "Wolverhampton",
-        "escudo": ""
+        "escudo": "https://upload.wikimedia.org/wikipedia/pt/6/6c/Wolverhampton_Wanderers.png"
     }
 ]

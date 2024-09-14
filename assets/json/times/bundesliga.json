@@ -5,11 +5,11 @@
     },
     {
         "nome": "Bayer Leverkusen",
-        "escudo": ""
+        "escudo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/59/Bayer_04_Leverkusen_logo.svg/310px-Bayer_04_Leverkusen_logo.svg.png"
     },
     {
         "nome": "Bayern de Munique",
-        "escudo": ""
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg/240px-FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg.png"
     },
     {
         "nome": "Bochum",
@@ -17,7 +17,7 @@
     },
     {
         "nome": "Borussia Dortmund",
-        "escudo": ""
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/240px-Borussia_Dortmund_logo.svg.png"
     },
     {
         "nome": "Borussia Mönchengladbach",
@@ -25,7 +25,7 @@
     },
     {
         "nome": "Eintracht Frankfurt",
-        "escudo": ""
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Eintracht_Frankfurt_Logo.svg/240px-Eintracht_Frankfurt_Logo.svg.png"
     },
     {
         "nome": "Freiburg",
@@ -37,15 +37,15 @@
     },
     {
         "nome": "Hoffenheim",
-        "escudo": ""
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Logo_TSG_Hoffenheim.svg/201px-Logo_TSG_Hoffenheim.svg.png"
     },
     {
         "nome": "Holstein Kiel",
-        "escudo": ""
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Holstein_Kiel_Logo.svg/240px-Holstein_Kiel_Logo.svg.png"
     },
     {
         "nome": "Mainz 05",
-        "escudo": ""
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Logo_Mainz_05.svg/258px-Logo_Mainz_05.svg.png"
     },
     {
         "nome": "RB Leipzig",
@@ -65,10 +65,10 @@
     },
     {
         "nome": "Werder Bremen",
-        "escudo": ""
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/SV-Werder-Bremen-Logo.svg/159px-SV-Werder-Bremen-Logo.svg.png"
     },
     {
         "nome": "Wolfsburg",
-        "escudo": ""
+        "escudo": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Logo-VfL-Wolfsburg.svg"
     }
 ]

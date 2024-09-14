@@ -1,174 +1,455 @@
 [
     {
-        "dataJogo": "08/09",
-        "estadio": "Liga das Nações",
+        "dataJogo": "15/09",
+        "estadio": "Campeonato Italiano",
+        "horaJogo": "07:30",
+        "mandante": {
+            "nome": "Genoa",
+            "escudo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2c/Genoa_CFC_crest.svg/179px-Genoa_CFC_crest.svg.png"
+        },
+        "visitante": {
+            "nome": "Roma",
+            "escudo": "https://upload.wikimedia.org/wikipedia/pt/8/8c/AS_Roma_logo.png"
+        },
+        "transmissao": [{
+            "nomeCanal": "ESPN",
+            "link": "#",
+            "logoCanal": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/1920px-ESPN_wordmark.svg.png"
+        },
+        {
+            "nomeCanal": "Disney+",
+            "link": "https://www.disneyplus.com/pt-br/home",
+            "logoCanal": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Disney%2B_logo.svg/320px-Disney%2B_logo.svg.png"
+        }]
+    },
+    {
+        "dataJogo": "15/09",
+        "estadio": "Premier League",
+        "horaJogo": "10:00",
+        "mandante": {
+            "nome": "Tottenham",
+            "escudo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b4/Tottenham_Hotspur.svg/117px-Tottenham_Hotspur.svg.png"
+        },
+        "visitante": {
+            "nome": "Arsenal",
+            "escudo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/53/Arsenal_FC.svg/204px-Arsenal_FC.svg.png"
+        },
+        "transmissao": [{
+            "nomeCanal": "ESPN",
+            "link": "#",
+            "logoCanal": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/1920px-ESPN_wordmark.svg.png"
+        },
+        {
+            "nomeCanal": "Disney+",
+            "link": "https://www.disneyplus.com/pt-br/home",
+            "logoCanal": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Disney%2B_logo.svg/320px-Disney%2B_logo.svg.png"
+        }]
+    },
+    {
+        "dataJogo": "15/09",
+        "estadio": "LaLiga",
+        "horaJogo": "11:15",
+        "mandante": {
+            "nome": "Girona",
+            "escudo": "https://upload.wikimedia.org/wikipedia/pt/5/5d/Girona_FC.png"
+        },
+        "visitante": {
+            "nome": "Barcelona",
+            "escudo": "https://upload.wikimedia.org/wikipedia/pt/thumb/4/43/FCBarcelona.svg/237px-FCBarcelona.svg.png"
+        },
+        "transmissao": [{
+            "nomeCanal": "Disney+",
+            "link": "https://www.disneyplus.com/pt-br/home",
+            "logoCanal": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Disney%2B_logo.svg/320px-Disney%2B_logo.svg.png"
+        }]
+    },
+    {
+        "dataJogo": "15/09",
+        "estadio": "Campeonato Português",
+        "horaJogo": "11:30",
+        "mandante": {
+            "nome": "Porto",
+            "escudo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f1/FC_Porto.svg/180px-FC_Porto.svg.png"
+        },
+        "visitante": {
+            "nome": "Farense",
+            "escudo": "https://upload.wikimedia.org/wikipedia/en/d/d1/S.C._Farense.png"
+        },
+        "transmissao": [{
+            "nomeCanal": "ESPN",
+            "link": "#",
+            "logoCanal": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/1920px-ESPN_wordmark.svg.png"
+        },
+        {
+            "nomeCanal": "Disney+",
+            "link": "https://www.disneyplus.com/pt-br/home",
+            "logoCanal": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Disney%2B_logo.svg/320px-Disney%2B_logo.svg.png"
+        }]
+    },
+    {
+        "dataJogo": "15/09",
+        "estadio": "Premier League",
+        "horaJogo": "12:30",
+        "mandante": {
+            "nome": "Wolverhampton",
+            "escudo": "https://upload.wikimedia.org/wikipedia/pt/6/6c/Wolverhampton_Wanderers.png"
+        },
+        "visitante": {
+            "nome": "Newcastle United",
+            "escudo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Newcastle_United_Logo.svg/238px-Newcastle_United_Logo.svg.png"
+        },
+        "transmissao": [{
+            "nomeCanal": "ESPN",
+            "link": "#",
+            "logoCanal": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/1920px-ESPN_wordmark.svg.png"
+        },
+        {
+            "nomeCanal": "Disney+",
+            "link": "https://www.disneyplus.com/pt-br/home",
+            "logoCanal": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Disney%2B_logo.svg/320px-Disney%2B_logo.svg.png"
+        }]
+    },
+    {
+        "dataJogo": "15/09",
+        "estadio": "Campeonato Alemão",
+        "horaJogo": "12:30",
+        "mandante": {
+            "nome": "Mainz 05",
+            "escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Logo_Mainz_05.svg/258px-Logo_Mainz_05.svg.png"
+        },
+        "visitante": {
+            "nome": "Werder Bremen",
+            "escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/SV-Werder-Bremen-Logo.svg/159px-SV-Werder-Bremen-Logo.svg.png"
+        },
+        "transmissao": [{
+            "nomeCanal": "TV Cultura",
+            "link": "#",
+            "logoCanal": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Cultura_logo_2013.svg/277px-Cultura_logo_2013.svg.png"
+        }, {
+            "nomeCanal": "SporTV",
+            "link": "#",
+            "logoCanal": "https://upload.wikimedia.org/wikipedia/commons/2/26/SporTV_2021.png"
+        },{
+            "nomeCanal": "OneFootball",
+            "link": "https://onefootball.com/en/tv-hub",
+            "logoCanal": "assets/img/logos/canais/OneFootball.png"
+        }]
+    },
+    {
+        "dataJogo": "15/09",
+        "estadio": "Campeonato Italiano",
         "horaJogo": "13:00",
-        "mandante":{
-            "nome": "Dinamarca",
-            "escudo": "https://www.pesmaster.com/pes-2021/graphics/teamlogos/e_000015.png"
-        },
-        "visitante": {
-            "nome": "Sérvia",
-            "escudo": "https://www.pesmaster.com/pes-2021/graphics/teamlogos/e_001550.png"
-        },
-        "transmissao": [
-            {
-                "nomeCanal": "SporTV",
-                "link": "#",
-                "logoCanal": "https://upload.wikimedia.org/wikipedia/commons/2/26/SporTV_2021.png"
-            }
-        ]
-    },
-    {
-        "dataJogo": "08/09",
-        "estadio": "Liga das Nações",
-        "horaJogo": "13:00",
         "mandante": {
-            "nome": "Bulgária",
-            "escudo": "https://www.pesmaster.com/pes-2021/graphics/teamlogos/e_000027.png"
+            "nome": "Cagliari",
+            "escudo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/61/Cagliari_Calcio_1920.svg/198px-Cagliari_Calcio_1920.svg.png"
         },
         "visitante": {
-            "nome": "Irlanda do Norte",
-            "escudo": "https://www.pesmaster.com/pes-2021/graphics/teamlogos/e_000002.png"
+            "nome": "Napoli",
+            "escudo": "https://logodetimes.com/times/societa-sportiva-calcio-napoli/societa-sportiva-calcio-napoli-256.png"
         },
-        "transmissao": [
-            {
-                "nomeCanal": "ESPN",
-                "link": "#",
-                "logoCanal": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/1920px-ESPN_wordmark.svg.png"
-            },
-            {
-                "nomeCanal": "Disney+",
-                "link": "https://www.disneyplus.com/pt-br/home",
-                "logoCanal": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Disney%2B_logo.svg/320px-Disney%2B_logo.svg.png"
-            }
-        ]
+        "transmissao": [{
+            "nomeCanal": "Disney+",
+            "link": "https://www.disneyplus.com/pt-br/home",
+            "logoCanal": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Disney%2B_logo.svg/320px-Disney%2B_logo.svg.png"
+        }]
     },
     {
-        "dataJogo": "08/09",
-        "estadio": "Liga das Nações",
-        "horaJogo": "13:00",
-        "mandante": {
-            "nome": "Eslováquia",
-            "escudo": "https://www.pesmaster.com/pes-2021/graphics/teamlogos/e_000020.png"
-        },
-        "visitante": {
-            "nome": "Azerbaijão",
-            "escudo": "https://www.pesmaster.com/pes-2021/graphics/teamlogos/e_001168.png"
-        },
-        "transmissao": [
-            {
-                "nomeCanal": "Disney+",
-                "link": "https://www.disneyplus.com/pt-br/home",
-                "logoCanal": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Disney%2B_logo.svg/320px-Disney%2B_logo.svg.png"
-            }
-        ]
-    },
-    {
-        "dataJogo": "08/09",
-        "estadio": "Liga das Nações",
+        "dataJogo": "15/09",
+        "estadio": "Campeonato Francês",
         "horaJogo": "15:45",
         "mandante": {
-            "nome": "Suíça",
-            "escudo": "https://www.pesmaster.com/pes-2021/graphics/teamlogos/e_000011.png"
+            "nome": "Lens",
+            "escudo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cc/RC_Lens_logo.svg/181px-RC_Lens_logo.svg.png"
         },
         "visitante": {
-            "nome": "Espanha",
-            "escudo": "https://www.pesmaster.com/pes-2021/graphics/teamlogos/e_000007.png"
+            "nome": "Lyon",
+            "escudo": "https://upload.wikimedia.org/wikipedia/pt/6/6d/Olympique_lyonnais.png"
         },
-        "transmissao": [
-            {
-                "nomeCanal": "ESPN",
-                "link": "#",
-                "logoCanal": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/1920px-ESPN_wordmark.svg.png"
-            },
-            {
-                "nomeCanal": "Disney+",
-                "link": "https://www.disneyplus.com/pt-br/home",
-                "logoCanal": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Disney%2B_logo.svg/320px-Disney%2B_logo.svg.png"
-            }
-        ]
+        "transmissao": [{
+            "nomeCanal": "CazéTV",
+            "link": "https://www.youtube.com/@CazeTV/streams",
+            "logoCanal": "https://logodownload.org/wp-content/uploads/2024/03/cazetv-logo-2.png"
+        }]
     },
     {
-        "dataJogo": "08/09",
-        "estadio": "Liga das Nações",
+        "dataJogo": "15/09",
+        "estadio": "Campeonato Italiano",
         "horaJogo": "15:45",
         "mandante": {
-            "nome": "Croácia",
-            "escudo": "https://www.pesmaster.com/pes-2021/graphics/teamlogos/e_000024.png"
+            "nome": "Monza",
+            "escudo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/AC_Monza_logo_%282021%29.svg/171px-AC_Monza_logo_%282021%29.svg.png"
         },
         "visitante": {
-            "nome": "Polônia",
-            "escudo": "https://www.pesmaster.com/pes-2021/graphics/teamlogos/e_000019.png"
+            "nome": "Inter de Milão",
+            "escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/FC_Internazionale_Milano_2021.svg/240px-FC_Internazionale_Milano_2021.svg.png"
         },
-        "transmissao": [
-            
-            {
-                "nomeCanal": "Disney+",
-                "link": "https://www.disneyplus.com/pt-br/home",
-                "logoCanal": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Disney%2B_logo.svg/320px-Disney%2B_logo.svg.png"
-            }
-        ]
+        "transmissao": [{
+            "nomeCanal": "Disney+",
+            "link": "https://www.disneyplus.com/pt-br/home",
+            "logoCanal": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Disney%2B_logo.svg/320px-Disney%2B_logo.svg.png"
+        }]
     },
     {
-        "dataJogo": "08/09",
-        "estadio": "Liga das Nações",
-        "horaJogo": "15:45",
-        "mandante":{
-            "nome": "Portugal",
-            "escudo": "https://www.pesmaster.com/pes-2021/graphics/teamlogos/e_000006.png"
-        },
-        "visitante": {
-            "nome": "Escócia",
-            "escudo": "https://www.pesmaster.com/pes-2021/graphics/teamlogos/e_000003.png"
-        },
-        "transmissao": [
-            {
-                "nomeCanal": "SporTV",
-                "link": "#",
-                "logoCanal": "https://upload.wikimedia.org/wikipedia/commons/2/26/SporTV_2021.png"
-            }
-        ]
-    },
-    {
-        "dataJogo": "08/09",
-        "estadio": "Liga das Nações",
-        "horaJogo": "15:45",
+        "dataJogo": "15/09",
+        "estadio": "Brasileirão Série A",
+        "horaJogo": "16:00",
         "mandante": {
-            "nome": "Suécia",
-            "escudo": "https://www.pesmaster.com/pes-2021/graphics/teamlogos/e_000017.png"
+            "nome": "Palmeiras",
+            "escudo": "assets/img/logos/times/brasil/palmeiras.png"
         },
         "visitante": {
-            "nome": "Estônia",
-            "escudo": "https://www.pesmaster.com/pes-2021/graphics/teamlogos/e_001172.png"
+            "nome": "Criciúma",
+            "escudo": "assets/img/logos/times/brasil/criciuma.png"
         },
-        "transmissao": [
-            
-            {
-                "nomeCanal": "Disney+",
-                "link": "https://www.disneyplus.com/pt-br/home",
-                "logoCanal": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Disney%2B_logo.svg/320px-Disney%2B_logo.svg.png"
-            }
-        ]
+        "transmissao": [{
+            "nomeCanal": "TV Globo",
+            "link": "#",
+            "logoCanal": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0EcRzeuolWn9xrfNwV0Ulb3z1oLyWsUexWzDSFSzzKbzAQbreUy8U8rpsiLCRpIsT2w&usqp=CAU"
+        },{
+            "nomeCanal": "Premiere",
+            "link": "https://premiere.globo.com/",
+            "logoCanal": "https://upload.wikimedia.org/wikipedia/pt/a/a2/Logo_Premiere_FC_2018.png"
+        }]
     },
     {
-        "dataJogo": "08/09",
-        "estadio": "Amistoso",
+        "dataJogo": "15/09",
+        "estadio": "Brasileirão Série A",
+        "horaJogo": "16:00",
+        "mandante": {
+            "nome": "Juventude",
+            "escudo": "assets/img/logos/times/brasil/juventude.png"
+        },
+        "visitante": {
+            "nome": "Fluminense",
+            "escudo": "assets/img/logos/times/brasil/fluminense.png"
+        },
+        "transmissao": [{
+            "nomeCanal": "TV Globo",
+            "link": "#",
+            "logoCanal": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0EcRzeuolWn9xrfNwV0Ulb3z1oLyWsUexWzDSFSzzKbzAQbreUy8U8rpsiLCRpIsT2w&usqp=CAU"
+        },{
+            "nomeCanal": "Premiere",
+            "link": "https://premiere.globo.com/",
+            "logoCanal": "https://upload.wikimedia.org/wikipedia/pt/a/a2/Logo_Premiere_FC_2018.png"
+        }]
+    },
+    {
+        "dataJogo": "15/09",
+        "estadio": "Brasileirão Série A",
+        "horaJogo": "16:00",
+        "mandante": {
+            "nome": "RB Bragantino",
+            "escudo": "assets/img/logos/times/brasil/rb-bragantino.png"
+        },
+        "visitante": {
+            "nome": "Grêmio",
+            "escudo": "assets/img/logos/times/brasil/gremio.png"
+        },
+        "transmissao": [{
+            "nomeCanal": "TV Globo",
+            "link": "#",
+            "logoCanal": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0EcRzeuolWn9xrfNwV0Ulb3z1oLyWsUexWzDSFSzzKbzAQbreUy8U8rpsiLCRpIsT2w&usqp=CAU"
+        },{
+            "nomeCanal": "Premiere",
+            "link": "https://premiere.globo.com/",
+            "logoCanal": "https://upload.wikimedia.org/wikipedia/pt/a/a2/Logo_Premiere_FC_2018.png"
+        }]
+    },
+    {
+        "dataJogo": "15/09",
+        "estadio": "Brasileirão Série B",
+        "horaJogo": "16:00",
+        "mandante": {
+            "nome": "Santos",
+            "escudo": "assets/img/logos/times/brasil-b/santos.png"
+        },
+        "visitante": {
+            "nome": "América-MG",
+            "escudo": "assets/img/logos/times/brasil-b/america-mg.png"
+        },
+        "transmissao": [{
+            "nomeCanal": "TV Globo",
+            "link": "#",
+            "logoCanal": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0EcRzeuolWn9xrfNwV0Ulb3z1oLyWsUexWzDSFSzzKbzAQbreUy8U8rpsiLCRpIsT2w&usqp=CAU"
+        },{
+            "nomeCanal": "Premiere",
+            "link": "https://premiere.globo.com/",
+            "logoCanal": "https://upload.wikimedia.org/wikipedia/pt/a/a2/Logo_Premiere_FC_2018.png"
+        }]
+    },
+    {
+        "dataJogo": "15/09",
+        "estadio": "Brasileirão Série B",
+        "horaJogo": "16:00",
+        "mandante": {
+            "nome": "Operário-PR",
+            "escudo": "assets/img/logos/times/brasil-b/operario-pr.png"
+        },
+        "visitante": {
+            "nome": "Coritiba",
+            "escudo": "assets/img/logos/times/brasil-b/coritiba.png"
+        },
+        "transmissao": [{
+            "nomeCanal": "Band",
+            "link": "#",
+            "logoCanal": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Rede_Bandeirantes_logo_2018.svg/320px-Rede_Bandeirantes_logo_2018.svg.png"
+        }, {
+            "nomeCanal": "TV Brasil",
+            "link": "#",
+            "logoCanal": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/TV_Brasil_logo_2023.svg/320px-TV_Brasil_logo_2023.svg.png"
+        },{
+            "nomeCanal": "Premiere",
+            "link": "https://premiere.globo.com/",
+            "logoCanal": "https://upload.wikimedia.org/wikipedia/pt/a/a2/Logo_Premiere_FC_2018.png"
+        }]
+    },
+    {
+        "dataJogo": "15/09",
+        "estadio": "LaLiga",
+        "horaJogo": "16:00",
+        "mandante": {
+            "nome": "Atlético de Madrid",
+            "escudo": "https://upload.wikimedia.org/wikipedia/pt/c/c1/Atletico_Madrid_logo.svg"
+        },
+        "visitante": {
+            "nome": "Valencia",
+            "escudo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/ce/Valenciacf.svg/191px-Valenciacf.svg.png"
+        },
+        "transmissao": [{
+            "nomeCanal": "ESPN",
+            "link": "#",
+            "logoCanal": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/1920px-ESPN_wordmark.svg.png"
+        },
+        {
+            "nomeCanal": "Disney+",
+            "link": "https://www.disneyplus.com/pt-br/home",
+            "logoCanal": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Disney%2B_logo.svg/320px-Disney%2B_logo.svg.png"
+        }]
+    },
+    {
+        "dataJogo": "15/09",
+        "estadio": "Brasileirão Série A",
         "horaJogo": "18:30",
-        "mandante":{
-            "nome": "Brasil sub-20",
-            "escudo": "https://www.pesmaster.com/pes-2021/graphics/teamlogos/e_000045.png"
+        "mandante": {
+            "nome": "Cruzeiro",
+            "escudo": "assets/img/logos/times/brasil/cruzeiro.png"
         },
         "visitante": {
-            "nome": "México sub-20",
-            "escudo": "https://www.pesmaster.com/pes-2021/graphics/teamlogos/e_000040.png"
+            "nome": "São Paulo",
+            "escudo": "assets/img/logos/times/brasil/sao-paulo.png"
         },
-        "transmissao": [
-            {
-                "nomeCanal": "SporTV",
-                "link": "#",
-                "logoCanal": "https://upload.wikimedia.org/wikipedia/commons/2/26/SporTV_2021.png"
-            }
-        ]
+        "transmissao": [{
+            "nomeCanal": "Premiere",
+            "link": "https://premiere.globo.com/",
+            "logoCanal": "https://upload.wikimedia.org/wikipedia/pt/a/a2/Logo_Premiere_FC_2018.png"
+        }]
+    },
+    {
+        "dataJogo": "15/09",
+        "estadio": "Brasileirão Série A",
+        "horaJogo": "18:30",
+        "mandante": {
+            "nome": "Bahia",
+            "escudo": "assets/img/logos/times/brasil/bahia.png"
+        },
+        "visitante": {
+            "nome": "Atlético-MG",
+            "escudo": "assets/img/logos/times/brasil/atletico-mg.png"
+        },
+        "transmissao": [{
+            "nomeCanal": "Premiere",
+            "link": "https://premiere.globo.com/",
+            "logoCanal": "https://upload.wikimedia.org/wikipedia/pt/a/a2/Logo_Premiere_FC_2018.png"
+        }]
+    },
+    {
+        "dataJogo": "15/09",
+        "estadio": "Brasileirão Série A",
+        "horaJogo": "18:30",
+        "mandante": {
+            "nome": "Flamengo",
+            "escudo": "assets/img/logos/times/brasil/flamengo.png"
+        },
+        "visitante": {
+            "nome": "Vasco",
+            "escudo": "assets/img/logos/times/brasil/vasco.png"
+        },
+        "transmissao": [{
+            "nomeCanal": "Premiere",
+            "link": "https://premiere.globo.com/",
+            "logoCanal": "https://upload.wikimedia.org/wikipedia/pt/a/a2/Logo_Premiere_FC_2018.png"
+        }]
+    },
+    {
+        "dataJogo": "15/09",
+        "estadio": "Brasileirão Série B",
+        "horaJogo": "18:30",
+        "mandante": {
+            "nome": "Chapecoense",
+            "escudo": "assets/img/logos/times/brasil-b/chapecoense.png"
+        },
+        "visitante": {
+            "nome": "Ceará",
+            "escudo": "assets/img/logos/times/brasil-b/ceara.png"
+        },
+        "transmissao": [{
+            "nomeCanal": "TV Brasil",
+            "link": "#",
+            "logoCanal": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/TV_Brasil_logo_2023.svg/320px-TV_Brasil_logo_2023.svg.png"
+        }, {
+            "nomeCanal": "Canal GOAT",
+            "link": "https://www.youtube.com/@canalgoatbr",
+            "logoCanal": "assets/img/logos/canais/goat.png"
+        } , {
+            "nomeCanal": "Premiere",
+            "link": "https://premiere.globo.com/",
+            "logoCanal": "https://upload.wikimedia.org/wikipedia/pt/a/a2/Logo_Premiere_FC_2018.png"
+        }]
+    },
+    {
+        "dataJogo": "15/09",
+        "estadio": "Brasileirão Série B",
+        "horaJogo": "18:30",
+        "mandante": {
+            "nome": "Sport",
+            "escudo": "assets/img/logos/times/brasil-b/sport.png"
+        },
+        "visitante": {
+            "nome": "CRB",
+            "escudo": "assets/img/logos/times/brasil-b/crb.png"
+        },
+        "transmissao": [{
+            "nomeCanal": "SporTV",
+            "link": "#",
+            "logoCanal": "https://upload.wikimedia.org/wikipedia/commons/2/26/SporTV_2021.png"
+        },
+        {
+            "nomeCanal": "Premiere",
+            "link": "https://premiere.globo.com/",
+            "logoCanal": "https://upload.wikimedia.org/wikipedia/pt/a/a2/Logo_Premiere_FC_2018.png"
+        }]
+    },
+    {
+        "dataJogo": "15/09",
+        "estadio": "Brasileirão Série C",
+        "horaJogo": "18:30",
+        "mandante": {
+            "nome": "Remo",
+            "escudo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Clube_do_Remo.svg/240px-Clube_do_Remo.svg.png"
+        },
+        "visitante": {
+            "nome": "Volta Redonda",
+            "escudo": "https://upload.wikimedia.org/wikipedia/en/d/df/Volta_Redonda_Futebol_Clube.png"
+        },
+        "transmissao": [{
+            "nomeCanal": "DAZN",
+            "link": "https://www.dazn.com/pt-BR/welcome",
+            "logoCanal": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/DAZN_Logo_Master.svg/240px-DAZN_Logo_Master.svg.png"
+        },
+        {
+            "nomeCanal": "Nosso Futebol",
+            "link": "https://www.nossofutebol.com/",
+            "logoCanal": "https://static.wixstatic.com/media/e7bfbc_94a941b045774114a4b2331dd6ed1d61~mv2.png/v1/fill/w_149,h_241,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/logo.png"
+        }]
     }
 ]

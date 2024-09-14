@@ -1,0 +1,82 @@
+[
+    {
+        "nome": "Alavés",
+        "escudo": ""
+    },
+    {
+        "nome": "Athletic Bilbao",
+        "escudo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/98/Club_Athletic_Bilbao_logo.svg/212px-Club_Athletic_Bilbao_logo.svg.png"
+    },
+    {
+        "nome": "Atlético de Madrid",
+        "escudo": "https://upload.wikimedia.org/wikipedia/pt/c/c1/Atletico_Madrid_logo.svg"
+    },
+    {
+        "nome": "Barcelona",
+        "escudo": "https://upload.wikimedia.org/wikipedia/pt/thumb/4/43/FCBarcelona.svg/237px-FCBarcelona.svg.png"
+    },
+    {
+        "nome": "Celta Vigo",
+        "escudo": ""
+    },
+    {
+        "nome": "Espanyol",
+        "escudo": ""
+    },
+    {
+        "nome": "Getafe",
+        "escudo": ""
+    },
+    {
+        "nome": "Girona",
+        "escudo": "https://upload.wikimedia.org/wikipedia/pt/5/5d/Girona_FC.png"
+    },
+    {
+        "nome": "Las Palmas",
+        "escudo": ""
+    },
+    {
+        "nome": "Leganés",
+        "escudo": ""
+    },
+    {
+        "nome": "Mallorca",
+        "escudo": ""
+    },
+    {
+        "nome": "Osasuna",
+        "escudo": ""
+    },
+    {
+        "nome": "Rayo Vallecano",
+        "escudo": ""
+    },
+    {
+        "nome": "Real Betis",
+        "escudo": ""
+    },
+    {
+        "nome": "Real Madrid",
+        "escudo": "https://upload.wikimedia.org/wikipedia/pt/9/98/Real_Madrid.png"
+    },
+    {
+        "nome": "Real Sociedad",
+        "escudo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f1/Real_Sociedad_logo.svg/209px-Real_Sociedad_logo.svg.png"
+    },
+    {
+        "nome": "Sevilla",
+        "escudo": ""
+    },
+    {
+        "nome": "Valencia",
+        "escudo": "https://upload.wikimedia.org/wikipedia/en/thumb/c/ce/Valenciacf.svg/191px-Valenciacf.svg.png"
+    },
+    {
+        "nome": "Valladolid",
+        "escudo": "https://upload.wikimedia.org/wikipedia/pt/5/5d/Real_Valladolid_CF.png"
+    },
+    {
+        "nome": "Villarreal",
+        "escudo": ""
+    }
+]

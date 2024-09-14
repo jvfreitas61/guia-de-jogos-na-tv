@@ -146,6 +146,9 @@ criarJogo(jogosAmanha, listaJogosAmanha);
 const bra28 = fetch('assets/json/brasileirao/rodada28.json');
 const listaBra28 = document.querySelector('#braRodada28');
 criarJogo(bra28, listaBra28);
+const bra29 = fetch('assets/json/brasileirao/rodada29.json');
+const listaBra29 = document.querySelector('#braRodada29');
+criarJogo(bra29, listaBra29);
 
 
 function criarJogo(jogosJson, listaJogos) {

@@ -38,5 +38,50 @@
         "nomeCanal": "OneFootball",
         "link": "https://onefootball.com/en/tv-hub",
         "logoCanal": "assets/img/logos/canais/OneFootball.png"
+    },
+    {
+        "nomeCanal": "CazéTV",
+        "link": "https://www.youtube.com/@CazeTV/streams",
+        "logoCanal": "https://logodownload.org/wp-content/uploads/2024/03/cazetv-logo-2.png"
+    },
+    {
+        "nomeCanal": "DAZN",
+        "link": "https://www.dazn.com/pt-BR/welcome",
+        "logoCanal": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/DAZN_Logo_Master.svg/240px-DAZN_Logo_Master.svg.png"
+    },
+    {
+        "nomeCanal": "Nosso Futebol",
+        "link": "https://www.nossofutebol.com/",
+        "logoCanal": "https://static.wixstatic.com/media/e7bfbc_94a941b045774114a4b2331dd6ed1d61~mv2.png/v1/fill/w_149,h_241,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/logo.png"
+    },
+    {
+        "nomeCanal": "RedeTV!",
+        "link": "#",
+        "logoCanal": "assets/img/logos/canais/redetv.png"
+    },
+    {
+        "nomeCanal": "Apple TV",
+        "link": "https://tv.apple.com/br?l=en-GB",
+        "logoCanal": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Apple_TV_Plus_Logo.svg/320px-Apple_TV_Plus_Logo.svg.png"
+    },
+    {
+        "nomeCanal": "Band",
+        "link": "#",
+        "logoCanal": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Rede_Bandeirantes_logo_2018.svg/320px-Rede_Bandeirantes_logo_2018.svg.png"
+    },
+    {
+        "nomeCanal": "BandSports",
+        "link": "#",
+        "logoCanal": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/BandSports_logo.svg/320px-BandSports_logo.svg.png"
+    },
+    {
+        "nomeCanal": "TV Brasil",
+        "link": "#",
+        "logoCanal": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/TV_Brasil_logo_2023.svg/320px-TV_Brasil_logo_2023.svg.png"
+    },
+    {
+        "nomeCanal": "TV Cultura",
+        "link": "#",
+        "logoCanal": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Cultura_logo_2013.svg/277px-Cultura_logo_2013.svg.png"
     }
 ]

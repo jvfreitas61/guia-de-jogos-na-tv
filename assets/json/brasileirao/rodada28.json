@@ -33,6 +33,11 @@
         },
         "transmissao": [
             {
+                "nomeCanal": "SporTV",
+                "link": "#",
+                "logoCanal": "https://upload.wikimedia.org/wikipedia/commons/2/26/SporTV_2021.png"
+            },
+            {
                "nomeCanal": "Premiere",
                 "link": "https://premiere.globo.com/",
                 "logoCanal": "https://upload.wikimedia.org/wikipedia/pt/a/a2/Logo_Premiere_FC_2018.png" 
@@ -73,6 +78,11 @@
         },
         "transmissao": [
             {
+                "nomeCanal": "TV Globo",
+                "link": "#",
+                "logoCanal": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0EcRzeuolWn9xrfNwV0Ulb3z1oLyWsUexWzDSFSzzKbzAQbreUy8U8rpsiLCRpIsT2w&usqp=CAU"
+            },
+            {
                 "nomeCanal": "Premiere",
                 "link": "https://premiere.globo.com/",
                 "logoCanal": "https://upload.wikimedia.org/wikipedia/pt/a/a2/Logo_Premiere_FC_2018.png"
@@ -93,6 +103,11 @@
         },
         "transmissao": [
             {
+                "nomeCanal": "TV Globo",
+                "link": "#",
+                "logoCanal": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0EcRzeuolWn9xrfNwV0Ulb3z1oLyWsUexWzDSFSzzKbzAQbreUy8U8rpsiLCRpIsT2w&usqp=CAU"
+            },
+            {
                 "nomeCanal": "Premiere",
                 "link": "https://premiere.globo.com/",
                 "logoCanal": "https://upload.wikimedia.org/wikipedia/pt/a/a2/Logo_Premiere_FC_2018.png"
@@ -112,6 +127,11 @@
         "escudo": "assets/img/logos/times/brasil/fluminense.png"
         },
         "transmissao": [
+            {
+                "nomeCanal": "TV Globo",
+                "link": "#",
+                "logoCanal": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0EcRzeuolWn9xrfNwV0Ulb3z1oLyWsUexWzDSFSzzKbzAQbreUy8U8rpsiLCRpIsT2w&usqp=CAU"
+            },
             {
                 "nomeCanal": "Premiere",
                 "link": "https://premiere.globo.com/",
@@ -192,6 +212,11 @@
         "escudo": "assets/img/logos/times/brasil/athletico-pr.png"
         },
         "transmissao": [
+            {
+                "nomeCanal": "SporTV",
+                "link": "#",
+                "logoCanal": "https://upload.wikimedia.org/wikipedia/commons/2/26/SporTV_2021.png"
+            },
             {
                 "nomeCanal": "Premiere",
                 "link": "https://premiere.globo.com/",

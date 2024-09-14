@@ -1,0 +1,202 @@
+[
+    {
+        "dataJogo": "03/10",
+        "estadio": "Heriberto Hülse",
+        "horaJogo": "19:00",
+        "mandante": {
+            "nome": "Criciúma",
+            "escudo": "assets/img/logos/times/brasil/criciuma.png"
+        },
+        "visitante": {
+            "nome": "Atlético-GO",
+            "escudo": "assets/img/logos/times/brasil/atletico-go.png"
+        },
+        "transmissao": [{
+            "nomeCanal": "Premiere",
+            "link": "https://premiere.globo.com/",
+            "logoCanal": "https://upload.wikimedia.org/wikipedia/pt/a/a2/Logo_Premiere_FC_2018.png"
+        }]
+    },
+    {
+        "dataJogo": "03/10",
+        "estadio": "Maracanã",
+        "horaJogo": "21:30",
+        "mandante": {
+            "nome": "Fluminense",
+            "escudo": "assets/img/logos/times/brasil/fluminense.png"
+        },
+        "visitante": {
+            "nome": "Cruzeiro",
+            "escudo": "assets/img/logos/times/brasil/cruzeiro.png"
+        },
+        "transmissao": [{
+            "nomeCanal": "SporTV",
+            "link": "#",
+            "logoCanal": "https://upload.wikimedia.org/wikipedia/commons/2/26/SporTV_2021.png"
+        },{
+            "nomeCanal": "Premiere",
+            "link": "https://premiere.globo.com/",
+            "logoCanal": "https://upload.wikimedia.org/wikipedia/pt/a/a2/Logo_Premiere_FC_2018.png"
+        }]
+    },
+    {
+        "dataJogo": "04/10",
+        "estadio": "Arena do Grêmio",
+        "horaJogo": "21:30",
+        "mandante": {
+            "nome": "Grêmio",
+            "escudo": "assets/img/logos/times/brasil/gremio.png"
+        },
+        "visitante": {
+            "nome": "Fortaleza",
+            "escudo": "assets/img/logos/times/brasil/fortaleza.png"
+        },
+        "transmissao": [{
+            "nomeCanal": "Premiere",
+            "link": "https://premiere.globo.com/",
+            "logoCanal": "https://upload.wikimedia.org/wikipedia/pt/a/a2/Logo_Premiere_FC_2018.png"
+        }]
+    },
+    {
+        "dataJogo": "05/10",
+        "estadio": "Arena MRV",
+        "horaJogo": "16:30",
+        "mandante": {
+            "nome": "Atlético-MG",
+            "escudo": "assets/img/logos/times/brasil/atletico-mg.png"
+        },
+        "visitante": {
+            "nome": "Vitória",
+            "escudo": "assets/img/logos/times/brasil/vitoria.png"
+        },
+        "transmissao": [{
+            "nomeCanal": "TV Globo",
+            "link": "#",
+            "logoCanal": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0EcRzeuolWn9xrfNwV0Ulb3z1oLyWsUexWzDSFSzzKbzAQbreUy8U8rpsiLCRpIsT2w&usqp=CAU"
+        },{
+            "nomeCanal": "Premiere",
+            "link": "https://premiere.globo.com/",
+            "logoCanal": "https://upload.wikimedia.org/wikipedia/pt/a/a2/Logo_Premiere_FC_2018.png"
+        }]
+    },
+    {
+        "dataJogo": "05/10",
+        "estadio": "Nabi Abi Chedid",
+        "horaJogo": "16:30",
+        "mandante": {
+            "nome": "RB Bragantino",
+            "escudo": "assets/img/logos/times/brasil/rb-bragantino.png"
+        },
+        "visitante": {
+            "nome": "Palmeiras",
+            "escudo": "assets/img/logos/times/brasil/palmeiras.png"
+        },
+        "transmissao": [{
+            "nomeCanal": "TV Globo",
+            "link": "#",
+            "logoCanal": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0EcRzeuolWn9xrfNwV0Ulb3z1oLyWsUexWzDSFSzzKbzAQbreUy8U8rpsiLCRpIsT2w&usqp=CAU"
+        },{
+            "nomeCanal": "Premiere",
+            "link": "https://premiere.globo.com/",
+            "logoCanal": "https://upload.wikimedia.org/wikipedia/pt/a/a2/Logo_Premiere_FC_2018.png"
+        }]
+    },
+    {
+        "dataJogo": "05/10",
+        "estadio": "Ligga Arena",
+        "horaJogo": "16:30",
+        "mandante": {
+            "nome": "Athletico-PR",
+            "escudo": "assets/img/logos/times/brasil/athletico-pr.png"
+        },
+        "visitante": {
+            "nome": "Botafogo",
+            "escudo": "assets/img/logos/times/brasil/botafogo.png"
+        },
+        "transmissao": [{
+            "nomeCanal": "TV Globo",
+            "link": "#",
+            "logoCanal": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0EcRzeuolWn9xrfNwV0Ulb3z1oLyWsUexWzDSFSzzKbzAQbreUy8U8rpsiLCRpIsT2w&usqp=CAU"
+        },{
+            "nomeCanal": "Rede Furacão",
+            "link": "https://www.redefuracao.com.br/",
+            "logoCanal": "assets/img/logos/canais/rede-furacao.png"
+        }]
+    },
+    {
+        "dataJogo": "05/10",
+        "estadio": "Arena Fonte Nova",
+        "horaJogo": "19:00",
+        "mandante": {
+            "nome": "Bahia",
+            "escudo": "assets/img/logos/times/brasil/bahia.png"
+        },
+        "visitante": {
+            "nome": "Flamengo",
+            "escudo": "assets/img/logos/times/brasil/flamengo.png"
+        },
+        "transmissao": [{
+            "nomeCanal": "Premiere",
+            "link": "https://premiere.globo.com/",
+            "logoCanal": "https://upload.wikimedia.org/wikipedia/pt/a/a2/Logo_Premiere_FC_2018.png"
+        }]
+    },
+    {
+        "dataJogo": "05/10",
+        "estadio": "Neo Química Arena",
+        "horaJogo": "19:00",
+        "mandante": {
+            "nome": "Corinthians",
+            "escudo": "assets/img/logos/times/brasil/corinthians.png"
+        },
+        "visitante": {
+            "nome": "Internacional",
+            "escudo": "assets/img/logos/times/brasil/internacional.png"
+        },
+        "transmissao": [{
+            "nomeCanal": "Premiere",
+            "link": "https://premiere.globo.com/",
+            "logoCanal": "https://upload.wikimedia.org/wikipedia/pt/a/a2/Logo_Premiere_FC_2018.png"
+        }]
+    },
+    {
+        "dataJogo": "05/10",
+        "estadio": "Arena Pantanal",
+        "horaJogo": "19:00",
+        "mandante": {
+            "nome": "Cuiabá",
+            "escudo": "assets/img/logos/times/brasil/cuiaba.png"
+        },
+        "visitante": {
+            "nome": "São Paulo",
+            "escudo": "assets/img/logos/times/brasil/sao-paulo.png"
+        },
+        "transmissao": [{
+            "nomeCanal": "Premiere",
+            "link": "https://premiere.globo.com/",
+            "logoCanal": "https://upload.wikimedia.org/wikipedia/pt/a/a2/Logo_Premiere_FC_2018.png"
+        }]
+    },
+    {
+        "dataJogo": "05/10",
+        "estadio": "São Januário",
+        "horaJogo": "21:00",
+        "mandante": {
+            "nome": "Vasco",
+            "escudo": "assets/img/logos/times/brasil/vasco.png"
+        },
+        "visitante": {
+            "nome": "Juventude",
+            "escudo": "assets/img/logos/times/brasil/juventude.png"
+        },
+        "transmissao": [{
+            "nomeCanal": "SporTV",
+            "link": "#",
+            "logoCanal": "https://upload.wikimedia.org/wikipedia/commons/2/26/SporTV_2021.png"
+        },{
+            "nomeCanal": "Premiere",
+            "link": "https://premiere.globo.com/",
+            "logoCanal": "https://upload.wikimedia.org/wikipedia/pt/a/a2/Logo_Premiere_FC_2018.png"
+        }]
+    }
+]
