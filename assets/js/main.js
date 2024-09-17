@@ -109,7 +109,7 @@ function callBack(event) {
 
 
     const listaTransmissao = event.currentTarget.querySelectorAll('li');
-    console.log(listaTransmissao);
+    //console.log(listaTransmissao);
 
     const listaTransmissaoAlt = document.querySelector(".transmissao-alt");
 
@@ -150,6 +150,19 @@ const bra29 = fetch('assets/json/brasileirao/rodada29.json');
 const listaBra29 = document.querySelector('#braRodada29');
 criarJogo(bra29, listaBra29);
 
+/*function lerJogos(){
+    fetch('assets/json/jogos1.json')
+    .then(response => response.json())
+        .then(jogos => {
+            jogos.map(jogo => {
+                //console.log(jogo.estadio);
+                const estadios = [];
+                estadios.push(jogo.estadio);
+                
+            })
+            
+        })
+}*/
 
 function criarJogo(jogosJson, listaJogos) {
     jogosJson
@@ -242,12 +255,12 @@ function criarJogo(jogosJson, listaJogos) {
                 }
                 
             })
-            const jogosSelecionados = document.querySelectorAll(".jogo")
+            /*const jogosSelecionados = document.querySelectorAll(".jogo")
             console.log(jogosSelecionados);
             jogosSelecionados.forEach((jogo) => {
                 jogo.addEventListener('click', callBack)
             
-            })
+            })*/
         })
 }
 
